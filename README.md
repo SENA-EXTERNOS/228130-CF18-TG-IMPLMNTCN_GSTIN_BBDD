@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Construcción del informe de requisitos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/228130-CF18-TG-IMPLMNTCN_GSTIN_BBDD/](https://sena-externos.github.io/228130-CF18-TG-IMPLMNTCN_GSTIN_BBDD/)
 
 #
 
