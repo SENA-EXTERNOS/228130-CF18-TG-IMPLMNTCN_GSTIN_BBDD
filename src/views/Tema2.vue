@@ -134,7 +134,9 @@
           em software
           |, con técnicas tradicionales, se dieron a la tarea de agilizarlos, dando al inicio a otra forma de trabajo, lo cual se conoce hoy como 
           em The Agil Alliance
-          |, una organización que nació específicamente para promover aspectos referentes a la agilidad, surgiendo de esta forma lo que se conoce como el Manifiesto Ágil. Dicho tratado se centra en unos postulados, donde sobresalen:
+          |, una organización que nació específicamente para promover aspectos referentes a la agilidad, surgiendo de esta forma lo que se conoce como el 
+          em Manifiesto Ágil
+          |. Dicho tratado se centra en unos postulados, donde sobresalen:
         
         ol
           li.mb-3
@@ -156,7 +158,7 @@
     p.mb-5 
       b Actualmente hay una gran variedad de tecnologías ágiles, siendo las más utilizadas:
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="<em>SCRUM</em>")
         .col-md-7.mb-4.mb-md-0
           p Es una metodología ágil, amplia, efectiva y ordenada que se establece para que varios equipos trabajen mancomunadamente y lograr soluciones optimas en proyectos de alto grado de complejidad. Lo anterior, se basa en el manejo de buenas prácticas para el trabajo en equipo con alta productividad. En el desarrollo de este método colaborativo, se hace una serie de entregables, parciales, constantes y ascendentes, dejando clara la meta o producto final, dándole prioridad a las necesidades más inmediatas que identifique el cliente.
@@ -178,39 +180,38 @@
         ol
           li.mb-3
             i.fas.fa-circle.cac.me-3
-              p
-                b Sprint: 
-                |Es el corazón del Scrum, se refiere a cualquier interacción realizada por el equipo. Los desarrolladores completarán muchos sprints a lo largo del mismo. Se inicia con el compromiso de un hacer determinada tarea y debe finalizar con la prueba real de un entregable. Cada proceso tiene una duración mínima de una semana y máximo 4.
+            |
+            b Sprint: 
+            |es el corazón del Scrum, se refiere a cualquier interacción realizada por el equipo. Los desarrolladores completarán muchos sprints a lo largo del mismo. Se inicia con el compromiso de un hacer determinada tarea y debe finalizar con la prueba real de un entregable. Cada proceso tiene una duración mínima de una semana y máximo 4.
           li.mb-3
             i.fas.fa-circle.cac.me-3
-              p 
-                b Roles Básicos:
-                |Por el funcionamiento mancomunado que se requiere, esta práctica se asocia con el Rugby, teniendo en cuenta el trabajo en equipo que se debe respetar para cumplir con los objetivos planteados. Para lograr este propósito, se requiere personas que desempeñen los siguientes roles:
+            | 
+            b Roles Básicos: 
+            |por el funcionamiento mancomunado que se requiere, esta práctica se asocia con el Rugby, teniendo en cuenta el trabajo en equipo que se debe respetar para cumplir con los objetivos planteados. Para lograr este propósito, se requiere personas que desempeñen los siguientes roles: #[br]#[br]
 
-                ol
-                  li.mb-3
-                    i.fas.fa-circle.cab.me-3
-                    p 
-                      em Product Owner: 
-                      |el propietario del proyecto, comúnmente llamado usuario, es quien vigila que realmente se están cumpliendo con los objetivos.
-                  li.mb-3
-                    i.fas.fa-circle.cab.me-3
-                    p Equipo de desarrollo: son los encargados de plasmar el 
-                      em product backlog 
-                      |(un listado de todas aquellas tareas que se van a ejecutar durante el proyecto) (IEBS 
-                      em Business School
-                      |, 2022) es el código fuente, con sus consecuentes pruebas, para finalmente convertirlo en un entregable.
-                  li.mb-3
-                    i.fas.fa-circle.cab.me-3
-                    p 
-                      em Scrum Master: 
-                      |es el líder, quien tiene un contacto permanente con el 
-                      em product owner
-                      |, pero al mismo tiempo es quien protege al equipo de desarrollo de presiones externas, cuenta con la experiencia en la creación de software, proyectos, etc., incluso con conocimientos empíricos en administración de personal.
-                  li.mb-3
-                    i.fas.fa-circle.cab.me-3
-                    |Iteraciones: ciclo repetitivo, donde a medida que avanza se incrementa el valor del producto, es decir, cada iteración implica un avance y un paso firme y seguro a la entrega final.
-
+            ol
+              li.mb-3
+                i.fas.fa-circle.cab.me-3
+                | 
+                em Product Owner: 
+                |el propietario del proyecto, comúnmente llamado usuario, es quien vigila que realmente se están cumpliendo con los objetivos.
+              li.mb-3
+                i.fas.fa-circle.cab.me-3
+                | Equipo de desarrollo: son los encargados de plasmar el 
+                em product backlog 
+                |(un listado de todas aquellas tareas que se van a ejecutar durante el proyecto) (IEBS 
+                em Business School
+                |, 2022) es el código fuente, con sus consecuentes pruebas, para finalmente convertirlo en un entregable.
+              li.mb-3
+                i.fas.fa-circle.cab.me-3
+                | 
+                em Scrum Master: 
+                |es el líder, quien tiene un contacto permanente con el 
+                em product owner
+                |, pero al mismo tiempo es quien protege al equipo de desarrollo de presiones externas, cuenta con la experiencia en la creación de software, proyectos, etc., incluso con conocimientos empíricos en administración de personal.
+              li.mb-3
+                i.fas.fa-circle.cab.me-3
+                |Iteraciones: ciclo repetitivo, donde a medida que avanza se incrementa el valor del producto, es decir, cada iteración implica un avance y un paso firme y seguro a la entrega final.
       .row(titulo="Para tener en cuenta")
         p En la historia de 
           em Scrum, 
@@ -261,26 +262,26 @@
           ol
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p 
-                b Interacción con los usuarios: 
-                |dependiendo de la complejidad, profundidad y tamaño del proyecto, se recomienda más de dos usuarios opinando acerca de los entregables.
+              | 
+              b Interacción con los usuarios: 
+              |dependiendo de la complejidad, profundidad y tamaño del proyecto, se recomienda más de dos usuarios opinando acerca de los entregables.
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p
-                b Planificación actual y futura: 
-                |el equipo planifica el entregable presente y el que sigue.
+              |
+              b Planificación actual y futura: 
+              |el equipo planifica el entregable presente y el que sigue.
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p
-                b Holística: 
-                |se subdividen equipos netamente funcionales en multifuncionales.
+              |
+              b Holística: 
+              |se subdividen equipos netamente funcionales en multifuncionales.
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p
-                b Revisión continua: 
-                |los incrementos se componen de iteraciones y de actividades que permiten construir, revisar, probar y controlar los objetivos de cada incremento. Ingeniería de 
-                em Software 
-                |I, (2018).
+              |
+              b Revisión continua: 
+              |los incrementos se componen de iteraciones y de actividades que permiten construir, revisar, probar y controlar los objetivos de cada incremento. Ingeniería de 
+              em Software 
+              |I, (2018).
 
         .col-md-4
           figure
@@ -291,7 +292,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3  Técnicas de priorización de requisitos
 
-    .bloque-texto-a.cab.p-4.p-md-5.mb-5.cn1
+    .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5.cct2
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas
             p.mb-0 Como se ha mencionado en capítulos anteriores, en la fase de consecución de información, se debe efectuar un correcto y efectivo levantamiento de requisitos, también es necesario priorizar dichas exigencias; tarea de alta complejidad, por las implicaciones, dado que en su mayoría genera fuertes controversias, incluso, posiciones encontradas, por ende, es de recalcar que se deben tomar decisiones así no todos los actores estén de acuerdo.
@@ -369,28 +370,28 @@
         figure
         img(src='@/assets/curso/temas/tema2/img2-14.svg', alt='Celular inteligente')
 
-      .col-md-8.col-sm-10
+      .col-md-8.col-sm-10.rectanguloid.p-4
         ul.lista-ul
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Permite establecer una comunicación fluida entre usuarios y desarrolladores, facilitando la comprensión entre sí.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Se eliminan los intermediarios entre las partes, por lo tanto, la información no tiene peligro de distorsión.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Es posible captar incluso hasta el lenguaje corporal de los clientes, lo cual nos facilita la compresión de gestos, tonos de voz, etc.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Facilita la determinación de funciones, las utilidades que requiere el sistema y la posibilidad de atender las necesidades, de forma temprana, evitando reprocesos.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |La cercanía con los usuarios conlleva a un entendimiento optimo, que es fundamental en el modelo de desarrollo, incluso a la hora de realizar todo tipo de pruebas.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Los requerimientos que se obtienen son más confiables, estables y veraces.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Al mejorar la calidad de los requerimientos, se eleva la calidad del producto final.
 
     h3
@@ -402,31 +403,31 @@
         figure
         img(src='@/assets/curso/temas/tema2/img2-15.svg', alt='Computador portátil')
 
-      .col-md-8.col-sm-10
+      .col-md-8.col-sm-10.rcacid.p-4
         ul.lista-ul
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Algunos usuarios tienen la tendencia a la mentira.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Posibles problemas de comunicación y expresión con los clientes.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |La mala interpretación de las ordenes entre los involucrados puede entorpecer el proyecto.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |En ocasiones, se requiere un reentrenamiento a los desarrolladores, en aspectos como el levantamiento de requisitos.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Algunas veces las entrevistas generan un numeroso volumen de información y requiere de mucha habilidad para organizarla y no olvidar detalles importantes.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Se puede obtener información repetida o excesivamente redundante, cuya revisión requiere demasiado tiempo.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Se requiere excelente entendimiento con los usuarios, independiente de factores externos.
           li
-            i.fas.fa-circle.cst.me-3
+            i.lista-ul__vineta
             |Puede resultar tedioso y muy difícil vincular a patrocinadores y/o dueños, que se requieran, por la dificultad de sus agendas.
 
 </template>

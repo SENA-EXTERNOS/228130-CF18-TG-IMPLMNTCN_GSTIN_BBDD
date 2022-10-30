@@ -55,7 +55,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Lenguaje de modelado")
         .col-md-3
           figure
@@ -73,91 +73,104 @@
           ol
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p 
-                b Erwin Data Modeler: 
-                |El 
-                em software 
-                |de modelado de datos número 1 del mundo. Es una herramienta galardonada y utilizada para encontrar, visualizar, diseñar, desplegar y estandarizar activos de datos empresariales de alta calidad. reducen la complejidad, facilitando el diseño, el despliegue y la comprensión de las fuentes de información para satisfacer las necesidades del negocio, 
-                em Apiumhub
-                |, (2020).
+              | 
+              b Erwin Data Modeler: 
+              |El 
+              em software 
+              |de modelado de datos número 1 del mundo. Es una herramienta galardonada y utilizada para encontrar, visualizar, diseñar, desplegar y estandarizar activos de datos empresariales de alta calidad. reducen la complejidad, facilitando el diseño, el despliegue y la comprensión de las fuentes de información para satisfacer las necesidades del negocio, 
+              em Apiumhub
+              |, (2020).
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p 
-                b Moon Modeler: 
-                |Herramienta de modelado de datos para 
-                em MongoDB, PostgreSQL, MySQL, MariaDB, SQLite y GraphQL
-                |. Diseñada para dibujar diagramas ER, 
-                em Apiumhub
-                |, (2020).
+              | 
+              b Moon Modeler: 
+              |Herramienta de modelado de datos para 
+              em MongoDB, PostgreSQL, MySQL, MariaDB, SQLite y GraphQL
+              |. Diseñada para dibujar diagramas ER, 
+              em Apiumhub
+              |, (2020).
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p 
-                b Toad Data Modeler: 
-                |Con este instrumento podrá visualizar las estructuras de las bases de datos y comprenderlas mejor, al igual que las relaciones existentes; también instaura modelos de datos lógicos y físicos de alta calidad, se pueden conectar múltiples bases de datos de forma nativa y simultánea, incluyendo 
-                em Oracle, SAP, MySQL, SQL Server, PostgreSQL, DB2, Ingres y Microsoft Access, Apiumhub, 
-                |(2020).
+              | 
+              b Toad Data Modeler: 
+              |Con este instrumento podrá visualizar las estructuras de las bases de datos y comprenderlas mejor, al igual que las relaciones existentes; también instaura modelos de datos lógicos y físicos de alta calidad, se pueden conectar múltiples bases de datos de forma nativa y simultánea, incluyendo 
+              em Oracle, SAP, MySQL, SQL Server, PostgreSQL, DB2, Ingres y Microsoft Access, Apiumhub, 
+              |(2020).
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              p 
-                b UML:
-                |fue creado en octubre de 1994, gracias a una reunión de entes mundiales que inventaron una estandarización que necesitaba del desarrollo de 
-                em software
-                |, está compuesto por una serie de diagramas:
+              | 
+              b UML:
+              |fue creado en octubre de 1994, gracias a una reunión de entes mundiales que inventaron una estandarización que necesitaba del desarrollo de 
+              em software
+              |, está compuesto por una serie de diagramas:
 
           p 
             b Estructurales:
-          ol
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de clases
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de componentes
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de despliegue
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de objetos
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de paquetes
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de perfiles
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de estructura compuesta
+
+          .row
+            .col-md-5
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de clases
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de componentes
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de despliegue
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de objetos
+            .col-md-6
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de paquetes
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de perfiles
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de estructura compuesta
 
           p 
             b Diagramas de comportamiento
-          ol
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de actividades
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de casos de uso
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama de máquina de estados
+          .row
+            .col-md-5
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de actividades
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de casos de uso
+            .col-md-6
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama de máquina de estados
 
           p 
             b Diagramas de interacción: 
             |realmente son una subdivisión de los anteriores, compuestos por:
-          ol
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |De secuencia
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |De comunicación
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |De tiempos
-            li.mb-3
-              i.fas.fa-circle.cab.me-3
-              |Diagrama global de interacciones
+          .row
+            .col-md-5
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |De secuencia
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |De comunicación
+            .col-md-6
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |De tiempos
+                li.mb-3
+                  i.fas.fa-circle.cab.me-3
+                  |Diagrama global de interacciones
 
       .row(titulo="Control de versiones ")
         .col-md-3
@@ -201,31 +214,31 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img3-6.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p
+        p.mb-4
           ol
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              |Primarios: se trata de sujetos con el rotulo de imprescindibles para el normal funcionamiento de la empresa, específicamente en el ámbito económico como los accionistas, dueños, clientes, trabajadores.
+              |Primarios: se trata de sujetos con el rotulo de imprescindibles para el normal funcionamiento de la empresa, específicamente en el ámbito económico como los accionistas, dueños, clientes, trabajadores.#[br]#[br]
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              |Secundarios: no tienen nada tienen que ver con la organización, pero que de una u otra forma, se ven afectados o beneficiados, aplica para la competencia, sindicatos, partidos políticos y en general toda la comunidad.
-        p
-          b ¿La pregunta que surge es, como se identifican los 
+              |Secundarios: no tienen nada tienen que ver con la organización, pero que de una u otra forma, se ven afectados o beneficiados, aplica para la competencia, sindicatos, partidos políticos y en general toda la comunidad.#[br]#[br]
+        p.mb-4
+          b ¿La pregunta que surge es, cómo se identifican los 
             em Stakeholders
-          |?
-        p
+          |?#[br]#[br]
+        p.mb-4
           ol
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              |El primer paso es reconocer a los interesados en el proyecto, bien sean actores internos o externos a la empresa.
+              |El primer paso es reconocer a los interesados en el proyecto, bien sean actores internos o externos a la empresa.#[br]#[br]
             li.mb-3
               i.fas.fa-circle.cac.me-3
-              |Seguidamente establecer de manera clara los intereses de la organización, en cuanto al proyecto planteado.
+              |Seguidamente establecer de manera clara los intereses de la organización, en cuanto al proyecto planteado.#[br]#[br]
             li.mb-3
               i.fas.fa-circle.cac.me-3
               |Posteriormente se fija el interés de cada uno de los 
               em Stakeholders 
-              |equiparando el primer paso, con relación a lo planteado por la entidad, definiendo la influencia, peso específico y preponderancia.
+              |equiparando el primer paso, con relación a lo planteado por la entidad, definiendo la influencia, peso específico y preponderancia.#[br]#[br]
             li.mb-3
               i.fas.fa-circle.cac.me-3
               |Para finalizar se clasifican por niveles.

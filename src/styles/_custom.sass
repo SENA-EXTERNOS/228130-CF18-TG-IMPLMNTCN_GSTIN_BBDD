@@ -3,20 +3,30 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 85%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    right: 20%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 70%
+  &-4
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 1%
+    right: 0%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(0px)
 
   100%
-    transform: translateY(0px)
+    transform: translateY(60px)
 
 
 // COLORES CORTOS
@@ -41,6 +51,15 @@
 .cad
   background-color: rgb(0, 78, 150) !important
 
+.cct //Color Cuadro de Texto
+  background-color: rgb(241, 246, 251) !important
+
+.cctb
+  background-color: rgb(0, 226, 252) !important
+
+.cct2
+  background-color: rgb(232, 232, 232) !important
+
 //BORDES
 // Líneas/Rayas alrededor de un párrafo
 .borde-lineas
@@ -48,5 +67,48 @@
   border-style: dashed
   border-color: #004B89
 
+.contenedor-dashed
+  border: 2px dashed #004b89
+
 .banner-principal__img
   width: auto
+
+.tarjeta--gris
+  background-color: #E8E8E8
+
+.acordion__accion__btn--a
+    background-color: #084A93
+
+.fa-plus
+  i
+    color: #FFFFFF !important
+
+.fa-minus
+  i
+    color: #FFFFFF !important
+
+.rectanguloid
+  position: relative
+  &::before
+    content: ''
+    width: 50%
+    height: 20%
+    background-color: rgba(185, 221, 252, .25)
+    bottom: 0
+    right: 0
+    display: block
+    position: absolute
+    mix-blend-mode: multiply
+  
+.rcacid
+  position: relative
+  &::before
+    content: ''
+    width: 50%
+    height: 20%
+    background-color: rgba(255, 179, 11, .25)
+    bottom: 0
+    right: 0
+    display: block
+    position: absolute
+    mix-blend-mode: multiply

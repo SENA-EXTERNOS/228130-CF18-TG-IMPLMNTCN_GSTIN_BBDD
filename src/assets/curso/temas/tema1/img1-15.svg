@@ -52,7 +52,7 @@
       <stop offset="1" stop-color="#ededed" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_131833" data-name="Grupo 131833" transform="translate(-180 -4710.626)">
+  <g id="Grupo_131831" data-name="Grupo 131831" transform="translate(-180 -4710.626)">
     <rect id="Rectángulo_40388" data-name="Rectángulo 40388" width="1240" height="600" transform="translate(180 4710.627)" fill="#f3f9ff"/>
     <g id="Grupo_112443" data-name="Grupo 112443" transform="translate(714.046 4583.564)">
       <g id="Grupo_109308" data-name="Grupo 109308" transform="translate(-48.769 153.691)">
@@ -1444,10 +1444,10 @@
     <path id="Trazado_122003" data-name="Trazado 122003" d="M141.773,65.646,176.975,44V62.717H300.168v49.158H176.975v18.717l-35.2-21.646L106.56,87.292Z" transform="translate(1029.832 4846.854)" fill="#084a93"/>
     <path id="Trazado_122001" data-name="Trazado 122001" d="M264.955,65.646,229.753,44V62.717H106.56v49.158H229.753v18.717l35.2-21.646,35.213-21.654Z" transform="translate(194.832 5067.854)" fill="#084a93"/>
     <path id="Trazado_122002" data-name="Trazado 122002" d="M141.773,65.646,176.975,44V62.717H300.168v49.158H176.975v18.717l-35.2-21.646L106.56,87.292Z" transform="translate(1029.832 5067.854)" fill="#084a93"/>
-    <text id="ISO_9001" data-name="ISO 9001" transform="translate(338 4941.247)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ISO 9001</tspan></text>
-    <text id="ISO_9001-2" data-name="ISO 9001" transform="translate(338 4941.247)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ISO 9001</tspan></text>
-    <text id="ISO_9004-2" data-name="ISO 9004-2" transform="translate(1190 4941.247)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ISO 9004-2</tspan></text>
-    <text id="ISO_9000-3" data-name="ISO 9000-3" transform="translate(338 5162.247)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ISO 9000-3</tspan></text>
-    <text id="ISO_IEC_33000" data-name="ISO/IEC 33000" transform="translate(1167 5162.247)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ISO/IEC 33000</tspan></text>
+    <text id="ISO_9001" data-name="ISO 9001" transform="translate(338 4941.247)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">ISO 9001</tspan></text>
+    <text id="ISO_9001-2" data-name="ISO 9001" transform="translate(338 4941.247)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">ISO 9001</tspan></text>
+    <text id="ISO_9004-2" data-name="ISO 9004-2" transform="translate(1190 4941.247)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">ISO 9004-2</tspan></text>
+    <text id="ISO_9000-3" data-name="ISO 9000-3" transform="translate(338 5162.247)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">ISO 9000-3</tspan></text>
+    <text id="ISO_IEC_33000" data-name="ISO/IEC 33000" transform="translate(1167 5162.247)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">ISO/IEC 33000</tspan></text>
   </g>
 </svg>
