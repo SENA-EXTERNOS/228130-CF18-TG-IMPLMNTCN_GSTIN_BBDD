@@ -371,27 +371,27 @@
         img(src='@/assets/curso/temas/tema2/img2-14.svg', alt='Celular inteligente')
 
       .col-md-8.col-sm-10.rectanguloid.p-4
-        ul.lista-ul
-          li
-            i.lista-ul__vineta
+        ol
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Permite establecer una comunicación fluida entre usuarios y desarrolladores, facilitando la comprensión entre sí.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Se eliminan los intermediarios entre las partes, por lo tanto, la información no tiene peligro de distorsión.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Es posible captar incluso hasta el lenguaje corporal de los clientes, lo cual nos facilita la compresión de gestos, tonos de voz, etc.
           li.mb-3
-            i.lista-ul__vineta
+            i.fas.fa-circle.cst.me-3
             |Facilita la determinación de funciones, las utilidades que requiere el sistema y la posibilidad de atender las necesidades, de forma temprana, evitando reprocesos.
           li.mb-3
-            i.lista-ul__vineta
+            i.fas.fa-circle.cst.me-3
             |La cercanía con los usuarios conlleva a un entendimiento optimo, que es fundamental en el modelo de desarrollo, incluso a la hora de realizar todo tipo de pruebas.
           li.mb-3
-            i.lista-ul__vineta
+            i.fas.fa-circle.cst.me-3
             |Los requerimientos que se obtienen son más confiables, estables y veraces.
           li.mb-3
-            i.lista-ul__vineta
+            i.fas.fa-circle.cst.me-3
             |Al mejorar la calidad de los requerimientos, se eleva la calidad del producto final.
 
     h3
@@ -404,30 +404,30 @@
         img(src='@/assets/curso/temas/tema2/img2-15.svg', alt='Computador portátil')
 
       .col-md-8.col-sm-10.rcacid.p-4
-        ul.lista-ul
-          li
-            i.lista-ul__vineta
+        ol
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Algunos usuarios tienen la tendencia a la mentira.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Posibles problemas de comunicación y expresión con los clientes.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |La mala interpretación de las ordenes entre los involucrados puede entorpecer el proyecto.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |En ocasiones, se requiere un reentrenamiento a los desarrolladores, en aspectos como el levantamiento de requisitos.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Algunas veces las entrevistas generan un numeroso volumen de información y requiere de mucha habilidad para organizarla y no olvidar detalles importantes.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Se puede obtener información repetida o excesivamente redundante, cuya revisión requiere demasiado tiempo.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Se requiere excelente entendimiento con los usuarios, independiente de factores externos.
-          li
-            i.lista-ul__vineta
+          li.mb-3
+            i.fas.fa-circle.cst.me-3
             |Puede resultar tedioso y muy difícil vincular a patrocinadores y/o dueños, que se requieran, por la dificultad de sus agendas.
 
 </template>

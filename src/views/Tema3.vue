@@ -70,7 +70,7 @@
             img(src='@/assets/curso/temas/tema3/img3-4.svg', alt='Herramientas de modelado')
         .col-md-8.mb-4.mb-md-0
           p La cantidad de información que se produce diariamente en el mundo es realmente asombrosa, llegando al punto que hablar de un crecimiento exponencial, es poco. Por tal razón, se requieren formas que permitan el manejo de la información, disponible y de especial importancia para las organizaciones, que, por ejemplo, admiten tomar decisiones que mejoren y faciliten la vida a sus usuarios. Todo lo anterior desemboca en la necesidad de aprovechar el reporte, de la manera más adecuada, para lo cual se requiere modelar dichos datos en forma correcta. Las principales herramientas son:
-          ol
+          ol.mb-4
             li.mb-3
               i.fas.fa-circle.cac.me-3
               | 
@@ -109,7 +109,7 @@
 
           .row
             .col-md-5
-              ol
+              ol.mb-4
                 li.mb-3
                   i.fas.fa-circle.cab.me-3
                   |Diagrama de clases
@@ -138,7 +138,7 @@
             b Diagramas de comportamiento
           .row
             .col-md-5
-              ol
+              ol.mb-4
                 li.mb-3
                   i.fas.fa-circle.cab.me-3
                   |Diagrama de actividades
