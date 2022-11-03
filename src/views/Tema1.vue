@@ -238,7 +238,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-12.svg', alt="Persona escribiendo en un tablero")
       .col-md-9
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Elementos para construir los ‘requisitos no funcionales’")
             p 
               b Seguridad: 
