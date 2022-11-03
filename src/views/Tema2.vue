@@ -11,7 +11,7 @@
       em software. 
       |Es decir, se enfoca en la técnica que extrae los insumos para dar inicio al esquema. Para lograrlo es indispensable tener competencias sólidas para recolectar la información base, lo que abarca interpretar lo que desea los interesados, contactar al equipo de desarrollo, este proceso se conoce como elicitación.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img2-1.svg')})`}"
       )
@@ -292,7 +292,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3  Técnicas de priorización de requisitos
 
-    .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5.cct2
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.cct2
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas
             p.mb-0 Como se ha mencionado en capítulos anteriores, en la fase de consecución de información, se debe efectuar un correcto y efectivo levantamiento de requisitos, también es necesario priorizar dichas exigencias; tarea de alta complejidad, por las implicaciones, dado que en su mayoría genera fuertes controversias, incluso, posiciones encontradas, por ende, es de recalcar que se deben tomar decisiones así no todos los actores estén de acuerdo.

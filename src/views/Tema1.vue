@@ -122,7 +122,7 @@
 
       .row
         .col-md-6.mb-4.mb-md-0
-          h3 Posibilidades para construir requerimientos funcionales
+          h3 Clasificación
           p Podemos clasificar los requerimientos funcionales en los siguientes tipos:
           ul.lista-ul
             li
@@ -395,14 +395,15 @@
       |y a organizaciones que subcontratan esos servicios.
 
     
-    .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5.cct
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.cct
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas
           p.mb-3 La norma ISO 33000 aporta líneas de trabajo coherentes para la evaluación de procesos software, Grupo ACMS Consultores, (2019).
           p.mb-3
             b ¿Qué establece la Norma ISO 33000 “Calidad de los procesos de desarrollo de 
-            em software
-            |”?
+            em 
+            b software
+            b ”?
           p Proporciona la base para realizar evaluaciones de capacidad en los procesos de 
             em software 
             |y permite medir los resultados obtenidos, con dicha información se puede: comprobar la evolución de una empresa a lo largo del tiempo, el seguimiento de productos: oferta y/o demanda en una organización respecto a la competencia y determinar las estrategias de mejora, Grupo ACMS Consultores, (2019).
