@@ -53,167 +53,168 @@
     p.mb-5 En el siguiente ítem, encontrará información sobre los requisitos funcionales de un proyecto de desarrollo de 
       em software.
 
-    SlyderA(tipo='b')
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Definición
-          p Los requerimientos funcionales de un proyecto de desarrollo de 
-            em software 
-            |son los que describen todas las actividades que el sistema debe realizar, es decir, definen los comportamientos o funciones, particulares o generales del mencionado procesador en determinados momentos y condiciones específicas. Generalmente, estos requerimientos funcionales, deben incluir procesos cumplidos por formularios, interfaces, descripciones de los flujos de trabajo, cálculos, rutinas, etc., y en general todas las exigencias del negocio que el sistema debe cumplir.
-          p En otras palabras, los servicios funcionales se definen como declaraciones del trabajo que realizará el 
-            em software 
-            |o los resultados que debe brindarnos el mismo ante el ingreso de determinados datos; aclarando que el término “datos de entradas”, no necesariamente se refiere exclusivamente a la información digitada por los usuarios, también puede ser respuestas automáticas de otros desarrollos e incluso procesos predefinidos. Lo anterior, sin mencionar que, en muchas ocasiones, los requisitos funcionales establecen clara y explícitamente lo que el sistema no debe o no puede hacer. Esto no se concretar como  definición alternativa, dejando claro el concepto de requerimiento funcional, mediante una declaración negativa de lo que no puede pasar; lo cual lo convierte en algo correcto y necesario determinar cuándo se presente.
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Imagen decorativa')
-            
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Falencias o fallas
-          p Un  elevado número de proyectos de desarrollo, presentan falencias o fallas en su construcción por especificaciones de requisitos inexactas; los encargados de construir y/o determinar los requisitos funcionales, pueden tomar decisiones y hasta suposiciones basados en la propia experiencia o de situaciones anteriores o generales o, en el peor de los casos, de por sentado algún comportamiento que no corresponde al caso de estudio actual: aún más, puede pasar que el profesional encargado, defina de forma ambigua o demasiado simple un requerimiento, pensando más en una solución fácil o rutinaria, en aras de simplificar su implementación. 
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Imagen decorativa')
+    .tarjeta.tarjeta--celeste.p-4.mb-5
+      SlyderA(tipo='b')
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Definición
+            p Los requerimientos funcionales de un proyecto de desarrollo de 
+              em software 
+              |son los que describen todas las actividades que el sistema debe realizar, es decir, definen los comportamientos o funciones, particulares o generales del mencionado procesador en determinados momentos y condiciones específicas. Generalmente, estos requerimientos funcionales, deben incluir procesos cumplidos por formularios, interfaces, descripciones de los flujos de trabajo, cálculos, rutinas, etc., y en general todas las exigencias del negocio que el sistema debe cumplir.
+            p En otras palabras, los servicios funcionales se definen como declaraciones del trabajo que realizará el 
+              em software 
+              |o los resultados que debe brindarnos el mismo ante el ingreso de determinados datos; aclarando que el término “datos de entradas”, no necesariamente se refiere exclusivamente a la información digitada por los usuarios, también puede ser respuestas automáticas de otros desarrollos e incluso procesos predefinidos. Lo anterior, sin mencionar que, en muchas ocasiones, los requisitos funcionales establecen clara y explícitamente lo que el sistema no debe o no puede hacer. Esto no se concretar como  definición alternativa, dejando claro el concepto de requerimiento funcional, mediante una declaración negativa de lo que no puede pasar; lo cual lo convierte en algo correcto y necesario determinar cuándo se presente.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Imagen decorativa')
+              
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Falencias o fallas
+            p Un  elevado número de proyectos de desarrollo, presentan falencias o fallas en su construcción por especificaciones de requisitos inexactas; los encargados de construir y/o determinar los requisitos funcionales, pueden tomar decisiones y hasta suposiciones basados en la propia experiencia o de situaciones anteriores o generales o, en el peor de los casos, de por sentado algún comportamiento que no corresponde al caso de estudio actual: aún más, puede pasar que el profesional encargado, defina de forma ambigua o demasiado simple un requerimiento, pensando más en una solución fácil o rutinaria, en aras de simplificar su implementación. 
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Imagen decorativa')
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Posibilidades para construir requerimientos funcionales
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              |Definir los datos de entrada completos y bien validados.
-            li
-              i.lista-ul__vineta
-              |Determinar todas y cada una de las operaciones a realizar en cada formulario, interface, etc. #[br] Resolver de manera clara y concisa los reportes requeridos.
-            li
-              i.lista-ul__vineta
-              p.mb-0 Precisar roles de usuario, especialmente para determinar quiénes y cuándo pueden digitar datos al 
-                em software.
-            li
-              i.lista-ul__vineta
-              |Establecer otros datos de salida (diferente a reportes) requeridos por el usuario.
-            li
-              i.lista-ul__vineta
-              |Detallar la forma de cumplir con estándares internaciones y/o de diversos tipos.
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Posibilidades para construir requerimientos funcionales
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |Definir los datos de entrada completos y bien validados.
+              li
+                i.lista-ul__vineta
+                |Determinar todas y cada una de las operaciones a realizar en cada formulario, interface, etc. #[br] Resolver de manera clara y concisa los reportes requeridos.
+              li
+                i.lista-ul__vineta
+                p.mb-0 Precisar roles de usuario, especialmente para determinar quiénes y cuándo pueden digitar datos al 
+                  em software.
+              li
+                i.lista-ul__vineta
+                |Establecer otros datos de salida (diferente a reportes) requeridos por el usuario.
+              li
+                i.lista-ul__vineta
+                |Detallar la forma de cumplir con estándares internaciones y/o de diversos tipos.
 
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='Imagen decorativa')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-5.svg', alt='Imagen decorativa')
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Ventajas
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              |Ayuda en la verificación, es decir que la aplicación realmente está proporcionando todas las funciones requeridas y prometidas.
-            li
-              i.lista-ul__vineta
-              |Ayuda en la definición de las funcionalidades de un sistema o en su defecto de sus subsistemas. #[br] Permite completar las necesidades planteadas y posiblemente faltantes. #[br] Accede a depurar errores cometidos en la obtención de requisitos, en aras de afinar los resultados finales.
-            li
-              i.lista-ul__vineta
-              |Posibilita cumplir con los objetivos propuestos, así como las actividades planteadas y las tareas correspondientes.
-            li
-              i.lista-ul__vineta
-              |Adhiere  en forma clara y precisa los procesos a sistematizar y con ello a determinar los comportamientos planeados y esperado del sistema.
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='Imagen decorativa')
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Ventajas
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |Ayuda en la verificación, es decir que la aplicación realmente está proporcionando todas las funciones requeridas y prometidas.
+              li
+                i.lista-ul__vineta
+                |Ayuda en la definición de las funcionalidades de un sistema o en su defecto de sus subsistemas. #[br] Permite completar las necesidades planteadas y posiblemente faltantes. #[br] Accede a depurar errores cometidos en la obtención de requisitos, en aras de afinar los resultados finales.
+              li
+                i.lista-ul__vineta
+                |Posibilita cumplir con los objetivos propuestos, así como las actividades planteadas y las tareas correspondientes.
+              li
+                i.lista-ul__vineta
+                |Adhiere  en forma clara y precisa los procesos a sistematizar y con ello a determinar los comportamientos planeados y esperado del sistema.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-6.svg', alt='Imagen decorativa')
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Clasificación
-          p Podemos clasificar los requerimientos funcionales en los siguientes tipos:
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              |Auditoría
-            li
-              i.lista-ul__vineta
-              |Interfaces internas y externas
-            li
-              i.lista-ul__vineta
-              |Histórico de datos
-            li
-              i.lista-ul__vineta
-              |Transaccionales
-            li
-              i.lista-ul__vineta
-              |Certificación
-            li
-              i.lista-ul__vineta
-              |Reglas del negocio
-            li
-              i.lista-ul__vineta
-              |Roles y permisos de usuarios
-            li
-              i.lista-ul__vineta
-              |Gestión legal
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='Imagen decorativa')
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h3 Clasificación
+            p Podemos clasificar los requerimientos funcionales en los siguientes tipos:
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |Auditoría
+              li
+                i.lista-ul__vineta
+                |Interfaces internas y externas
+              li
+                i.lista-ul__vineta
+                |Histórico de datos
+              li
+                i.lista-ul__vineta
+                |Transaccionales
+              li
+                i.lista-ul__vineta
+                |Certificación
+              li
+                i.lista-ul__vineta
+                |Reglas del negocio
+              li
+                i.lista-ul__vineta
+                |Roles y permisos de usuarios
+              li
+                i.lista-ul__vineta
+                |Gestión legal
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='Imagen decorativa')
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Ejemplos
-          p Con base en lo anterior, es posible construir ejemplos de requerimientos funcionales:
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              |El sistema emitirá un mensaje de texto y/o correo electrónico cuando se realice alguna de las siguientes transacciones: pedido de un cliente, despacho de mercancía, emisión de factura y registro de pago.
-            li
-              i.lista-ul__vineta
-              |El sistema de ventas virtual permitirá a los usuarios, adicionar, modificar y consultar las ventas de los clientes activos.
-            li
-              i.lista-ul__vineta
-              |El sistema de información tendrá un botón de pagos, conectado con PSE que permitirá realizar pagos electrónicos.
-            li
-              i.lista-ul__vineta
-              |El sistema enviará automáticamente un correo electrónico a los interesados cuando se cree una nueva requisición.
-            
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Imagen decorativa')
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Ejemplos
+            p Con base en lo anterior, es posible construir ejemplos de requerimientos funcionales:
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |El sistema emitirá un mensaje de texto y/o correo electrónico cuando se realice alguna de las siguientes transacciones: pedido de un cliente, despacho de mercancía, emisión de factura y registro de pago.
+              li
+                i.lista-ul__vineta
+                |El sistema de ventas virtual permitirá a los usuarios, adicionar, modificar y consultar las ventas de los clientes activos.
+              li
+                i.lista-ul__vineta
+                |El sistema de información tendrá un botón de pagos, conectado con PSE que permitirá realizar pagos electrónicos.
+              li
+                i.lista-ul__vineta
+                |El sistema enviará automáticamente un correo electrónico a los interesados cuando se cree una nueva requisición.
+              
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Imagen decorativa')
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Ejemplos
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              |El sistema le asignará un número consecutivo, único e irrepetible a cada pedido, para identificarlo en todos los procesos del inventario.
-            li
-              i.lista-ul__vineta
-              |El campo ‘Neto a Pagar' únicamente acepta valores decimales con dos posiciones.
-            li
-              i.lista-ul__vineta
-              |El campo ‘fecha de nacimiento’ únicamente acepta una fecha que indique que el trabajador tiene entre 18 y 65 años, rango de edad determinada por políticas de la empresa.
-            li
-              i.lista-ul__vineta
-              p Los clientes tendrán disponible únicamente los productos con 
-                em stock 
-                | suficiente. El administrador del sistema podrá ver las ganancias, perdidas y principales balances contables en tiempo real.
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-9.svg', alt='Imagen decorativa')
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Ejemplos
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |El sistema le asignará un número consecutivo, único e irrepetible a cada pedido, para identificarlo en todos los procesos del inventario.
+              li
+                i.lista-ul__vineta
+                |El campo ‘Neto a Pagar' únicamente acepta valores decimales con dos posiciones.
+              li
+                i.lista-ul__vineta
+                |El campo ‘fecha de nacimiento’ únicamente acepta una fecha que indique que el trabajador tiene entre 18 y 65 años, rango de edad determinada por políticas de la empresa.
+              li
+                i.lista-ul__vineta
+                p Los clientes tendrán disponible únicamente los productos con 
+                  em stock 
+                  | suficiente. El administrador del sistema podrá ver las ganancias, perdidas y principales balances contables en tiempo real.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-9.svg', alt='Imagen decorativa')
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Para tener en cuenta
-          p Posibles errores en la construcción de requisitos funcionales:
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              |Evite copiar necesidades externas o generales de artículos, libros, etc., puesto que estos deben   ser personalizados en cada sistema.
-            li
-              i.lista-ul__vineta
-              |Evite adicionar información, a menos que sea estrictamente necesario, ya que esto puede generar dudas o confusiones.
-            li
-              i.lista-ul__vineta
-              |Evite omitir detalles técnicos en los requisitos funcionales.
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-10.svg', alt='Imagen decorativa')
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h3 Para tener en cuenta
+            p Posibles errores en la construcción de requisitos funcionales:
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |Evite copiar necesidades externas o generales de artículos, libros, etc., puesto que estos deben   ser personalizados en cada sistema.
+              li
+                i.lista-ul__vineta
+                |Evite adicionar información, a menos que sea estrictamente necesario, ya que esto puede generar dudas o confusiones.
+              li
+                i.lista-ul__vineta
+                |Evite omitir detalles técnicos en los requisitos funcionales.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img1-10.svg', alt='Imagen decorativa')
 
     Separador
 
@@ -343,6 +344,7 @@
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1-13.png')})`}"
       )
+      .contenedor-dashed.p-4
       .bloque-texto-g__texto.p-4.borde-lineas
         p.mb-0 En 1946, se creó la Organización Internacional de Estandarización, más conocida como ISO por sus iniciales en inglés. Esta institución nació de la unión de dos organismos que existían anteriormente, el primero de ellos el 
           em International Federation of National Standarzing 
@@ -394,23 +396,24 @@
       em software 
       |y a organizaciones que subcontratan esos servicios.
 
+    .bloque-texto-izquierda
+      .bloque-texto-a.bloque-texto-p.p-4.mb-5(data-aos="zoom-in" style="background-color: #F3F9FF")
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-8
+            .contenedor-dashed.p-4
+              .bloque-texto-a__texto.p-4
+                p.mb-3 La norma ISO 33000 aporta líneas de trabajo coherentes para la evaluación de procesos software, Grupo ACMS Consultores, (2019).
+                p.mb-3
+                  b ¿Qué establece la Norma ISO 33000 “Calidad de los procesos de desarrollo de 
+                  em 
+                  b software
+                  b ”?
+                p Proporciona la base para realizar evaluaciones de capacidad en los procesos de 
+                  em software 
+                  |y permite medir los resultados obtenidos, con dicha información se puede: comprobar la evolución de una empresa a lo largo del tiempo, el seguimiento de productos: oferta y/o demanda en una organización respecto a la competencia y determinar las estrategias de mejora, Grupo ACMS Consultores, (2019).
+          .col-lg-4.mb-4.mb-lg-0.p-4
+            img(src='@/assets/curso/temas/tema1/img1-16.svg', alt='Computador portátil')
     
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.cct
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas
-          p.mb-3 La norma ISO 33000 aporta líneas de trabajo coherentes para la evaluación de procesos software, Grupo ACMS Consultores, (2019).
-          p.mb-3
-            b ¿Qué establece la Norma ISO 33000 “Calidad de los procesos de desarrollo de 
-            em 
-            b software
-            b ”?
-          p Proporciona la base para realizar evaluaciones de capacidad en los procesos de 
-            em software 
-            |y permite medir los resultados obtenidos, con dicha información se puede: comprobar la evolución de una empresa a lo largo del tiempo, el seguimiento de productos: oferta y/o demanda en una organización respecto a la competencia y determinar las estrategias de mejora, Grupo ACMS Consultores, (2019).
-        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
-          figure.mb-5
-            img(src='@/assets/curso/temas/tema1/img1-16.svg', alt="Computador portátil")
-
 </template>
 
 <script>

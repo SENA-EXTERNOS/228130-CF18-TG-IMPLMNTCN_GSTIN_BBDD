@@ -42,83 +42,82 @@
 
     p.mb-5 Dentro de las técnicas de recolección de datos existen las tradicionales, las cuales se describen a continuación:
 
-    TabsC.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Lluvia de ideas")
-        .row.justify-content-center.align-items-center
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img2-2.svg', alt='Ideas')
-          .col-md-6.mb-4.mb-md-0
-            p Consiste en una reunión de trabajo, planificada y estructurada, el objetivo primordial es recolectar todas las ideas acerca de un tema específico. Debe ser abierta con reglas claras que van desde el tiempo, tener un moderador, respetar el uso de la palabra, entre otras pautas establecidas al inicio y de estricto cumplimiento. Se deben fijar los criterios para valorar ideas y establecer un puntaje; al igual que el desarrollo de los temas agendados
-            p 
-              b Para tener en cuenta
-            p Para que una sesión sea exitosa se debe realizar de la siguiente manera:
-            ol
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Hacer una introducción obligatoria, bienvenida, contexto y exposición del caso de estudio, conceptos teóricos, planteamiento del problema y ejemplos de casos similares.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |La organización y estructuras de las sesiones son fundamentales para el producto final, lo cual obliga a una planeación de todos los aspectos a tratar y de qué forma abordarlos.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Como se ha mencionado el manejo del tiempo debe ser suficiente para analizar y asimilar el tema central; seguidamente se debe dar espacio para la generación y preparación de ideas; luego un debate y finalmente escoger los planteamientos más destacados, este último en su mayoría se hace por consenso o votación.
-          
-      .py-4.py-md-5(titulo="Talleres de trabajo <em>(workshop)</em>")
-        .row.justify-content-center.align-items-center
-          .col-lg-8
-          .col-md-6
-            .col-lg-8
-            figure
-              img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Reunión virtual')
-          .col-md-6.mb-4.mb-md-0
-            p Se trata de un espacio de trabajo, donde confluyen determinadas personas, que aportan conocimientos, conceptos, opiniones, pensamientos, material de estudio e incluso dudas e inquietudes del tema proyectado para el desarrollo de 
-              em software.
-            p 
-              b Pautas a seguir
-            p Un 
-              em workshop 
-              |exitoso, debe tener mínimo los siguientes aspectos:
-            ol
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Material óptimo: Las ayudas audiovisuales, son una herramienta que facilita captar la atención de los asistentes, el material a proyectar se debe seleccionar de  forma técnica, sin olvidar que los grupos son heterogéneos por naturaleza, en cuanto a nivel de preparación y asimilación de los conceptos.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Sitio adecuando: Es una experiencia que requiere de mucha concentración, lo cual implica contar un sitio optimo en cuanto a privacidad, comodidad, confianza, no se puede olvidar que la misión a cumplir es de gran importancia y por ende se deben proporcionar los espacios y elementos idóneos.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Ritmo adecuado: El manejo del tiempo es fundamental, así como realizar pausas activas de manera organizada; la metodología debe ser planeada con antelación y socializada, por ejemplo, cambiando de actividad o de tema-subtema. Sumado a los descansos programados de 15 y hasta 20 minutos, luego de jornadas entre 3 o 4 horas.
+    .tarjeta.tarjeta--tabs.p-4.mb-5
+      TabsC.color-acento-contenido.mb-5
+        .py-4.py-md-5(titulo="Lluvia de ideas")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img2-2.svg', alt='Ideas')
+            .col-md-8.mb-4.mb-md-0
+              p Consiste en una reunión de trabajo, planificada y estructurada, el objetivo primordial es recolectar todas las ideas acerca de un tema específico. Debe ser abierta con reglas claras que van desde el tiempo, tener un moderador, respetar el uso de la palabra, entre otras pautas establecidas al inicio y de estricto cumplimiento. Se deben fijar los criterios para valorar ideas y establecer un puntaje; al igual que el desarrollo de los temas agendados
+              p 
+                b Para tener en cuenta
+              p Para que una sesión sea exitosa se debe realizar de la siguiente manera:
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Hacer una introducción obligatoria, bienvenida, contexto y exposición del caso de estudio, conceptos teóricos, planteamiento del problema y ejemplos de casos similares.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |La organización y estructuras de las sesiones son fundamentales para el producto final, lo cual obliga a una planeación de todos los aspectos a tratar y de qué forma abordarlos.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Como se ha mencionado el manejo del tiempo debe ser suficiente para analizar y asimilar el tema central; seguidamente se debe dar espacio para la generación y preparación de ideas; luego un debate y finalmente escoger los planteamientos más destacados, este último en su mayoría se hace por consenso o votación.
+            
+        .py-4.py-md-5(titulo="Talleres de trabajo <em>(workshop)</em>")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Reunión virtual')
+            .col-md-8.mb-4.mb-md-0
+              p Se trata de un espacio de trabajo, donde confluyen determinadas personas, que aportan conocimientos, conceptos, opiniones, pensamientos, material de estudio e incluso dudas e inquietudes del tema proyectado para el desarrollo de 
+                em software.
+              p 
+                b Pautas a seguir
+              p Un 
+                em workshop 
+                |exitoso, debe tener mínimo los siguientes aspectos:
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Material óptimo: Las ayudas audiovisuales, son una herramienta que facilita captar la atención de los asistentes, el material a proyectar se debe seleccionar de  forma técnica, sin olvidar que los grupos son heterogéneos por naturaleza, en cuanto a nivel de preparación y asimilación de los conceptos.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Sitio adecuando: Es una experiencia que requiere de mucha concentración, lo cual implica contar un sitio optimo en cuanto a privacidad, comodidad, confianza, no se puede olvidar que la misión a cumplir es de gran importancia y por ende se deben proporcionar los espacios y elementos idóneos.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Ritmo adecuado: El manejo del tiempo es fundamental, así como realizar pausas activas de manera organizada; la metodología debe ser planeada con antelación y socializada, por ejemplo, cambiando de actividad o de tema-subtema. Sumado a los descansos programados de 15 y hasta 20 minutos, luego de jornadas entre 3 o 4 horas.
 
-      .py-4.py-md-5(titulo="Listas de Verificación")
-        .row.justify-content-center.align-items-center
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img2-4.svg', alt='Lista de chequeo')
-          .col-md-6.mb-4.mb-md-0
-            p Denominado 
-              em “checklist” 
-              |o lista de verificación se utiliza para analizar una o más propiedades de un tema en concreto que se somete a consideración de un grupo de observadores. Generalmente esta herramienta se cumple mediante una lista de preguntas con respuestas cerradas. Algunos autores las denominan como “respuestas binarias” ya que se niega 
-              em (false) 
-              |o aprueba 
-              em (true). 
-              |Este carácter cerrado de las respuestas, aunque muy criticado y con muchas desventajas, ofrece un nivel de precisión y objetividad muy alto, que se le debe sacar provecho.
-            p 
-              b Consideraciones
-            p Una lista de verificación bien construida debe tener en cuenta los aspectos descritos a continuación:
-            ol
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Crear el registro respetando detalles como categoría, la escala determinada en cada pregunta y un detalle que parece obvio, pero es necesario mencionar, dibujar las cuadriculas que guíen al usuario en el manejo de la misma.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Determinar los periodos de verificación en forma clara y concisa.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Clarificar el área, tema, subtema, etc., para que al final sea más fácil recoger los objetivos específicos y hacer la verificación.
-              li.mb-3
-                i.fas.fa-circle.cac.me-3
-                |Realizar los cálculos estadísticos y el análisis para llegar a una conclusión efectiva.
+        .py-4.py-md-5(titulo="Listas de Verificación")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img2-4.svg', alt='Lista de chequeo')
+            .col-md-8.mb-4.mb-md-0
+              p Denominado 
+                em “checklist” 
+                |o lista de verificación se utiliza para analizar una o más propiedades de un tema en concreto que se somete a consideración de un grupo de observadores. Generalmente esta herramienta se cumple mediante una lista de preguntas con respuestas cerradas. Algunos autores las denominan como “respuestas binarias” ya que se niega 
+                em (false) 
+                |o aprueba 
+                em (true). 
+                |Este carácter cerrado de las respuestas, aunque muy criticado y con muchas desventajas, ofrece un nivel de precisión y objetividad muy alto, que se le debe sacar provecho.
+              p 
+                b Consideraciones
+              p Una lista de verificación bien construida debe tener en cuenta los aspectos descritos a continuación:
+              ol
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Crear el registro respetando detalles como categoría, la escala determinada en cada pregunta y un detalle que parece obvio, pero es necesario mencionar, dibujar las cuadriculas que guíen al usuario en el manejo de la misma.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Determinar los periodos de verificación en forma clara y concisa.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Clarificar el área, tema, subtema, etc., para que al final sea más fácil recoger los objetivos específicos y hacer la verificación.
+                li.mb-3
+                  i.fas.fa-circle.cac.me-3
+                  |Realizar los cálculos estadísticos y el análisis para llegar a una conclusión efectiva.
 
     Separador
 
@@ -292,15 +291,16 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3  Técnicas de priorización de requisitos
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.cct2
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-8.bloque-texto-a__texto.p-4.borde-lineas
-            p.mb-0 Como se ha mencionado en capítulos anteriores, en la fase de consecución de información, se debe efectuar un correcto y efectivo levantamiento de requisitos, también es necesario priorizar dichas exigencias; tarea de alta complejidad, por las implicaciones, dado que en su mayoría genera fuertes controversias, incluso, posiciones encontradas, por ende, es de recalcar que se deben tomar decisiones así no todos los actores estén de acuerdo.
-            p.mb-0 Las técnicas más utilizadas son:
-
-        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
-          figure.mb-5
-            img(src='@/assets/curso/temas/tema2/img2-10.svg', alt="Imagen decorativa")
+    .bloque-texto-izquierda
+      .bloque-texto-a.bloque-texto-2.p-4.mb-5(data-aos="zoom-in" style="background-color: #E8E8E8")
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-8
+            .contenedor-dashed.p-4
+              .bloque-texto-a__texto.p-4
+                p.mb-3 Como se ha mencionado en capítulos anteriores, en la fase de consecución de información, se debe efectuar un correcto y efectivo levantamiento de requisitos, también es necesario priorizar dichas exigencias; tarea de alta complejidad, por las implicaciones, dado que en su mayoría genera fuertes controversias, incluso, posiciones encontradas, por ende, es de recalcar que se deben tomar decisiones así no todos los actores estén de acuerdo.
+                p.mb-0 Las técnicas más utilizadas son:
+          .col-lg-4.mb-4.mb-lg-0.p-4
+            img(src='@/assets/curso/temas/tema2/img2-10.svg', alt='Joven en escalera')
 
     p.mb-5 
       em MosCow
