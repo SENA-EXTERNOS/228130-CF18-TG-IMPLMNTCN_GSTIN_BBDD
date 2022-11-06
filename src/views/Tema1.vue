@@ -345,7 +345,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1-13.png')})`}"
       )
       .contenedor-dashed.p-4
-      .bloque-texto-g__texto.p-4.borde-lineas
+      .bloque-texto-g__texto.p-4.borde-dashed
         p.mb-0 En 1946, se creó la Organización Internacional de Estandarización, más conocida como ISO por sus iniciales en inglés. Esta institución nació de la unión de dos organismos que existían anteriormente, el primero de ellos el 
           em International Federation of National Standarzing 
           |(ISA); y el segundo, la 
