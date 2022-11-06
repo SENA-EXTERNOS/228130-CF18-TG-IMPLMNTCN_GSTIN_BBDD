@@ -405,8 +405,8 @@
                 p.mb-3 La norma ISO 33000 aporta líneas de trabajo coherentes para la evaluación de procesos software, Grupo ACMS Consultores, (2019).
                 p.mb-3
                   b ¿Qué establece la Norma ISO 33000 “Calidad de los procesos de desarrollo de 
-                  em 
-                  b software
+                  b 
+                    em software
                   b ”?
                 p Proporciona la base para realizar evaluaciones de capacidad en los procesos de 
                   em software 
