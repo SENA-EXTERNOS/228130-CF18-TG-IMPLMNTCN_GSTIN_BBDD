@@ -3,15 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5
-      .col-md-11
-        .titulo-sexto.color-acento-contenido.mb-5
-            h4 Implementación y gestión de bases de datos
-            p.mb-0 Síntesis: Construcción del informe de requisitos
-      .col-md-1
-        figure.logo-size
-          img(src="@/assets/curso/temas/logo.svg", alt="alt")
-
     p.mb-5 La construcción del informe indica la forma de realizarlo, bajo los mejores y más eficientes estándares,  como se muestra en el siguiente mapa conceptual.
 
     .row.justify-content-center.align-items-center.mb-5
