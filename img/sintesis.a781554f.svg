@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="956.762" height="507" viewBox="0 0 956.762 507">
+  <g id="Grupo_131832" data-name="Grupo 131832" transform="translate(-322 -448)">
+    <g id="Grupo_114962" data-name="Grupo 114962" transform="translate(228.333 -4547)">
+      <path id="Trazado_116030" data-name="Trazado 116030" d="M2.928,0H127.072C128.689,0,130,2.395,130,5.349v35.3c0,2.954-1.311,5.349-2.928,5.349H2.928C1.311,46,0,43.605,0,40.651V5.349C0,2.395,1.311,0,2.928,0Z" transform="translate(458.667 4995)" fill="#084a93"/>
+      <text id="Algoritmos" transform="translate(478.667 5024)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Algoritmos</tspan></text>
+    </g>
+    <line id="Línea_349" data-name="Línea 349" y2="407" transform="translate(394.5 521.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Grupo_114973" data-name="Grupo 114973" transform="translate(-73.334 -377.75)">
+      <g id="Rectángulo_40686" data-name="Rectángulo 40686" transform="translate(427.334 936)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="82" height="31" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="81" height="30" rx="4.5" fill="none"/>
+      </g>
+      <text id="presenta" transform="translate(437.334 958)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">presenta</tspan></text>
+    </g>
+    <g id="Grupo_128835" data-name="Grupo 128835" transform="translate(-63.334 -213.25)">
+      <g id="Rectángulo_40686-2" data-name="Rectángulo 40686" transform="translate(427.334 936)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="61" height="31" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="60" height="30" rx="4.5" fill="none"/>
+      </g>
+      <text id="como" transform="translate(437.334 958)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">como</tspan></text>
+    </g>
+    <line id="Línea_347" data-name="Línea 347" y2="406.625" transform="translate(1109 521.875)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_348" data-name="Línea 348" y2="279" transform="translate(752.5 494.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Grupo_114970" data-name="Grupo 114970" transform="translate(649.666 -377.375)">
+      <g id="Trazado_190437" data-name="Trazado 190437" transform="translate(427.334 936)" fill="#fff">
+        <path d="M 58.02563858032227 30.5 L 3.97435998916626 30.5 C 2.058589935302734 30.5 0.5 28.32662010192871 0.5 25.65517044067383 L 0.5 5.34483003616333 C 0.5 2.673379898071289 2.058589935302734 0.5 3.97435998916626 0.5 L 58.02563858032227 0.5 C 59.94141006469727 0.5 61.5 2.673379898071289 61.5 5.34483003616333 L 61.5 25.65517044067383 C 61.5 28.32662010192871 59.94141006469727 30.5 58.02563858032227 30.5 Z" stroke="none"/>
+        <path d="M 3.974361419677734 1 C 3.236858367919922 1 2.523799896240234 1.412729263305664 1.966518402099609 2.16217041015625 C 1.343250274658203 3.000360488891602 1 4.130649566650391 1 5.344829559326172 L 1 25.65517044067383 C 1 26.86935043334961 1.343250274658203 27.9996395111084 1.966518402099609 28.83782958984375 C 2.523799896240234 29.58727073669434 3.236858367919922 30 3.974361419677734 30 L 58.02563858032227 30 C 58.76314163208008 30 59.47620010375977 29.58727073669434 60.03348159790039 28.83782958984375 C 60.6567497253418 27.9996395111084 61 26.86935043334961 61 25.65517044067383 L 61 5.344829559326172 C 61 4.130649566650391 60.6567497253418 3.000360488891602 60.03348159790039 2.16217041015625 C 59.47620010375977 1.412729263305664 58.76314163208008 1 58.02563858032227 1 L 3.974361419677734 1 M 3.974361419677734 0 L 58.02563858032227 0 C 60.22061920166016 0 62 2.392959594726562 62 5.344829559326172 L 62 25.65517044067383 C 62 28.60704040527344 60.22061920166016 31 58.02563858032227 31 L 3.974361419677734 31 C 1.779380798339844 31 0 28.60704040527344 0 25.65517044067383 L 0 5.344829559326172 C 0 2.392959594726562 1.779380798339844 0 3.974361419677734 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="utiliza" transform="translate(437.334 958)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">utiliza</tspan></text>
+    </g>
+    <g id="Grupo_114972" data-name="Grupo 114972" transform="translate(301.166 -376.75)">
+      <g id="Trazado_190439" data-name="Trazado 190439" transform="translate(427.334 936)" fill="#fff">
+        <path d="M 44.15999984741211 30.5 L 1.840000033378601 30.5 C 1.677010059356689 30.5 1.32191002368927 30.17291069030762 1.011690020561218 29.27178001403809 C 0.6817200183868408 28.31328010559082 0.5 27.02887916564941 0.5 25.65517044067383 L 0.5 5.34483003616333 C 0.5 3.971120119094849 0.6817200183868408 2.68671989440918 1.011690020561218 1.728219985961914 C 1.32191002368927 0.8270900249481201 1.677010059356689 0.5 1.840000033378601 0.5 L 44.15999984741211 0.5 C 44.32299041748047 0.5 44.6780891418457 0.8270900249481201 44.98831176757812 1.728219985961914 C 45.31827926635742 2.686709880828857 45.5 3.971120119094849 45.5 5.34483003616333 L 45.5 25.65517044067383 C 45.5 27.02887916564941 45.31827926635742 28.31328964233398 44.98831176757812 29.27178001403809 C 44.6780891418457 30.17291069030762 44.32299041748047 30.5 44.15999984741211 30.5 Z" stroke="none"/>
+        <path d="M 1.941257476806641 1 C 1.633258819580078 1.293212890625 1 2.802528381347656 1 5.344829559326172 L 1 25.65517044067383 C 1 28.19747161865234 1.633258819580078 29.706787109375 1.941257476806641 30 L 44.05873870849609 30 C 44.36674118041992 29.70678520202637 45 28.19746208190918 45 25.65517044067383 L 45 5.344829559326172 C 45 2.80253791809082 44.36674118041992 1.293214797973633 44.05873870849609 1 L 1.941257476806641 1 M 1.840000152587891 0 L 44.15999984741211 0 C 45.17620086669922 0 46 2.392959594726562 46 5.344829559326172 L 46 25.65517044067383 C 46 28.60704040527344 45.17620086669922 31 44.15999984741211 31 L 1.840000152587891 31 C 0.82379150390625 31 0 28.60704040527344 0 25.65517044067383 L 0 5.344829559326172 C 0 2.392959594726562 0.82379150390625 0 1.840000152587891 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="usa" transform="translate(437.334 958)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">usa</tspan></text>
+    </g>
+    <line id="Línea_342" data-name="Línea 342" x2="715" transform="translate(394.5 522)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Grupo_114969" data-name="Grupo 114969" transform="translate(-973.631 -137)">
+      <g id="Grupo_128832" data-name="Grupo 128832" transform="translate(884.963 -4236)">
+        <path id="Trazado_116256" data-name="Trazado 116256" d="M4.765,0h132.47C139.867,0,142,3.592,142,8.023V60.977c0,4.431-2.133,8.023-4.765,8.023H4.765C2.133,69,0,65.408,0,60.977V8.023C0,3.592,2.133,0,4.765,0Z" transform="translate(410.668 4995)" fill="#ffb30b"/>
+        <text id="Requisitos_de_software" data-name="Requisitos de 
+software" transform="translate(481.667 5024)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-50.82" y="0">Requisitos de </tspan><tspan font-family="Roboto-BoldItalic, Roboto" font-style="italic"><tspan x="-30.98" y="24">software</tspan></tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_128833" data-name="Grupo 128833" transform="translate(-614.631 -137)">
+      <g id="Grupo_128832-2" data-name="Grupo 128832" transform="translate(884.963 -4236)">
+        <path id="Trazado_116256-2" data-name="Trazado 116256" d="M3.423,0H98.577C100.468,0,102,2.343,102,5.233V39.767c0,2.89-1.532,5.233-3.423,5.233H3.423C1.532,45,0,42.657,0,39.767V5.233C0,2.343,1.532,0,3.423,0Z" transform="translate(430.668 4995)" fill="#ffb30b"/>
+        <text id="Modelos" transform="translate(481.667 5024)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-31.121" y="0">Modelos</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_128834" data-name="Grupo 128834" transform="translate(-255.631 -137)">
+      <g id="Grupo_128832-3" data-name="Grupo 128832" transform="translate(884.963 -4236)">
+        <path id="Trazado_116256-3" data-name="Trazado 116256" d="M4.228,0H121.772C124.107,0,126,3.592,126,8.023V60.977c0,4.431-1.893,8.023-4.228,8.023H4.228C1.893,69,0,65.408,0,60.977V8.023C0,3.592,1.893,0,4.228,0Z" transform="translate(418.668 4995)" fill="#ffb30b"/>
+        <text id="Técnicas_de_recolección" data-name="Técnicas de
+recolección" transform="translate(481.667 5024)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-43.445" y="0">Técnicas de</tspan><tspan x="-41.852" y="24">recolección</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_128836" data-name="Grupo 128836" transform="translate(294.166 -213.25)">
+      <g id="Rectángulo_40686-3" data-name="Rectángulo 40686" transform="translate(427.334 936)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="61" height="31" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="60" height="30" rx="4.5" fill="none"/>
+      </g>
+      <text id="como-2" data-name="como" transform="translate(437.334 958)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">como</tspan></text>
+    </g>
+    <g id="Grupo_128837" data-name="Grupo 128837" transform="translate(649.666 -213.25)">
+      <g id="Rectángulo_40686-4" data-name="Rectángulo 40686" transform="translate(427.334 936)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="61" height="31" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="60" height="30" rx="4.5" fill="none"/>
+      </g>
+      <text id="como-3" data-name="como" transform="translate(437.334 958)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">como</tspan></text>
+    </g>
+    <rect id="Rectángulo_41141" data-name="Rectángulo 41141" width="126" height="33" rx="5" transform="translate(689 774)" fill="#b9ddfc"/>
+    <text id="Viewpoint" transform="translate(753 779)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-34.594" y="17">Viewpoint</tspan></text>
+    <line id="Línea_344" data-name="Línea 344" x1="45.131" transform="translate(1109 868)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_375" data-name="Línea 375" x1="45.131" transform="translate(395 868)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_345" data-name="Línea 345" x1="45.131" transform="translate(1109 928)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_376" data-name="Línea 376" x1="45.131" transform="translate(395 928)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_346" data-name="Línea 346" x1="45.131" transform="translate(1109 801)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_377" data-name="Línea 377" x1="45.131" transform="translate(395 801)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Grupo_114965" data-name="Grupo 114965" transform="translate(-156.869 -114)">
+      <rect id="Rectángulo_293716" data-name="Rectángulo 293716" width="142" height="55" rx="5" transform="translate(1293.631 887)" fill="#b9ddfc"/>
+      <text id="Técnicas_tradicionales" data-name="Técnicas tradicionales" transform="translate(1316.631 894.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Técnicas </tspan><tspan x="0" y="36">tradicionales</tspan></text>
+      <rect id="Rectángulo_293717" data-name="Rectángulo 293717" width="142" height="55" rx="5" transform="translate(1293.631 951)" fill="#b9ddfc"/>
+      <text id="Técnicas_ágiles" data-name="Técnicas ágiles" transform="translate(1316.631 958.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Técnicas </tspan><tspan x="0" y="36">ágiles</tspan></text>
+      <rect id="Rectángulo_293718" data-name="Rectángulo 293718" width="142" height="55" rx="5" transform="translate(1293.631 1014)" fill="#b9ddfc"/>
+      <text id="Técnicas_de_priorización" data-name="Técnicas de priorización" transform="translate(1316.631 1021.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Técnicas de </tspan><tspan x="0" y="36">priorización</tspan></text>
+    </g>
+    <g id="Grupo_128839" data-name="Grupo 128839" transform="translate(-870.869 -114)">
+      <rect id="Rectángulo_293716-2" data-name="Rectángulo 293716" width="142" height="55" rx="5" transform="translate(1293.631 887)" fill="#b9ddfc"/>
+      <text id="Requisitos_funcionales" data-name="Requisitos funcionales" transform="translate(1316.631 894.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Requisitos </tspan><tspan x="0" y="36">funcionales</tspan></text>
+      <rect id="Rectángulo_293717-2" data-name="Rectángulo 293717" width="142" height="55" rx="5" transform="translate(1293.631 951)" fill="#b9ddfc"/>
+      <text id="Requisitos_no_funcionales" data-name="Requisitos no
+funcionales" transform="translate(1316.631 958.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Requisitos no</tspan><tspan x="0" y="36">funcionales</tspan></text>
+      <rect id="Rectángulo_293718-2" data-name="Rectángulo 293718" width="142" height="55" rx="5" transform="translate(1293.631 1014)" fill="#b9ddfc"/>
+      <text id="Estándares" transform="translate(1316.631 1031)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Estándares</tspan></text>
+    </g>
+  </g>
+</svg>

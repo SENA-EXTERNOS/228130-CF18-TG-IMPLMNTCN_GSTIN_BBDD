@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="894.718" height="259.221" viewBox="0 0 894.718 259.221">
+  <defs>
+    <filter id="Trazado_121018" x="0" y="161.467" width="189.898" height="97.03" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.81" dy="5.81" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.81" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_121021" x="183.026" y="162.046" width="189.898" height="97.03" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.81" dy="5.81" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.81" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_121024" x="366.056" y="162.19" width="189.898" height="97.03" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.81" dy="5.81" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.81" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_121027" x="549.09" y="162.191" width="189.898" height="97.03" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.81" dy="5.81" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.81" result="blur-4"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_131832" data-name="Grupo 131832" transform="translate(-175.282 -601)">
+    <line id="Línea_323" data-name="Línea 323" x2="405.301" transform="translate(341.811 805.201)" fill="none" stroke="#12263f" stroke-width="2"/>
+    <line id="Línea_319" data-name="Línea 319" y1="52.73" transform="translate(243.587 714.215)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <line id="Línea_321" data-name="Línea 321" y1="58.02" transform="translate(810.697 714.215)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <line id="Línea_320" data-name="Línea 320" x1="567" transform="translate(244 715)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <g id="Grupo_113943" data-name="Grupo 113943" transform="translate(428.144 714.732)">
+      <path id="Trazado_121029" data-name="Trazado 121029" d="M0,53.764V0" transform="translate(9.305 0.517)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <path id="Polígono_4" data-name="Polígono 4" d="M9.5,0,19,16H0Z" transform="translate(-0.144 0.268)" fill="#12263f"/>
+      <path id="Polígono_5" data-name="Polígono 5" d="M9.5,0,19,17H0Z" transform="translate(18.856 56.268) rotate(180)" fill="#12263f"/>
+    </g>
+    <g id="Grupo_113944" data-name="Grupo 113944" transform="translate(610.115 714.732)">
+      <line id="Línea_322" data-name="Línea 322" y1="53.764" transform="translate(9.305 0.517)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <path id="Polígono_4-2" data-name="Polígono 4" d="M9.5,0,19,16H0Z" transform="translate(-0.115 0.268)" fill="#12263f"/>
+      <path id="Polígono_5-2" data-name="Polígono 5" d="M9.5,0,19,17H0Z" transform="translate(18.885 56.268) rotate(180)" fill="#12263f"/>
+    </g>
+    <path id="Polígono_6" data-name="Polígono 6" d="M9.5,0,19,16H0Z" transform="translate(801 715)" fill="#12263f"/>
+    <path id="Polígono_7" data-name="Polígono 7" d="M9,0l9,17H0Z" transform="translate(252 770) rotate(180)" fill="#12263f"/>
+    <g id="orientada" transform="translate(180 770.201)">
+      <g id="Grupo_113939" data-name="Grupo 113939" transform="translate(0 0)">
+        <path id="Trazado_121017" data-name="Trazado 121017" d="M155.82,27.37h4.415a5.679,5.679,0,0,1,5.676,5.676V52.96a5.679,5.679,0,0,1-5.676,5.676H155.82V27.37Z" transform="translate(-0.001 -8.027)" fill="#ffb30b"/>
+        <rect id="Rectángulo_40492" data-name="Rectángulo 40492" width="69.842" height="122.469" rx="12.45" transform="translate(122.53 0.107) rotate(90.05)" fill="#ffb30b"/>
+        <g transform="matrix(1, 0, 0, 1, -4.72, -169.2)" filter="url(#Trazado_121018)">
+          <path id="Trazado_121018-2" data-name="Trazado 121018" d="M11.831,22.594c0-5.625,5.707-10.174,12.728-10.174l130.162.052c6.69,0,12.107,4.343,12.107,9.7L166.787,64.9c0,5.356-5.428,9.688-12.118,9.688L23.753,74.539c-6.617,0-11.973-4.291-11.963-9.585l.041-42.36Z" transform="translate(-0.17 160.67)" fill="#fff"/>
+        </g>
+        <path id="Trazado_121019" data-name="Trazado 121019" d="M18.042,36.73H9.46L5.18,42.675,9.46,48.62h8.582l4.291-5.945Z" transform="translate(-5.112 -7.709)" fill="#ffb30b"/>
+      </g>
+      <g id="Grupo_113940" data-name="Grupo 113940" transform="translate(183.043 0.578)">
+        <path id="Trazado_121020" data-name="Trazado 121020" d="M332.84,27.93h4.415a5.679,5.679,0,0,1,5.676,5.676V53.52a5.679,5.679,0,0,1-5.676,5.676H332.84V27.93Z" transform="translate(-177.038 -8.586)" fill="#b9ddfc"/>
+        <rect id="Rectángulo_40493" data-name="Rectángulo 40493" width="69.842" height="122.469" rx="12.45" transform="translate(122.53 0.107) rotate(90.05)" fill="#b9ddfc"/>
+        <g transform="matrix(1, 0, 0, 1, -187.76, -169.78)" filter="url(#Trazado_121021)">
+          <path id="Trazado_121021-2" data-name="Trazado 121021" d="M188.851,23.154c0-5.625,5.707-10.174,12.728-10.174l130.162.052c6.69,0,12.107,4.343,12.107,9.7l-.041,42.732c0,5.356-5.428,9.688-12.118,9.688L200.773,75.1c-6.617,0-11.973-4.291-11.963-9.585l.041-42.36Z" transform="translate(5.84 160.69)" fill="#fff"/>
+        </g>
+        <path id="Trazado_121022" data-name="Trazado 121022" d="M195.062,37.3h-8.571L182.2,43.245l4.291,5.945h8.571l4.291-5.945Z" transform="translate(-182.149 -8.268)" fill="#b9ddfc"/>
+      </g>
+      <g id="Grupo_113941" data-name="Grupo 113941" transform="translate(366.068 0.722)">
+        <path id="Trazado_121023" data-name="Trazado 121023" d="M509.86,28.5h4.415a5.679,5.679,0,0,1,5.676,5.676V54.09a5.679,5.679,0,0,1-5.676,5.676H509.86V28.5h0Z" transform="translate(-354.064 -9.156)" fill="#00defc"/>
+        <rect id="Rectángulo_40494" data-name="Rectángulo 40494" width="69.842" height="122.469" rx="12.45" transform="translate(122.53 0.107) rotate(90.05)" fill="#00defc"/>
+        <g transform="matrix(1, 0, 0, 1, -370.79, -169.92)" filter="url(#Trazado_121024)">
+          <path id="Trazado_121024-2" data-name="Trazado 121024" d="M365.881,23.724c0-5.625,5.707-10.174,12.728-10.174l130.161.052c6.69,0,12.107,4.343,12.107,9.7l-.041,42.732c0,5.356-5.428,9.688-12.118,9.688L377.8,75.669c-6.617,0-11.973-4.291-11.963-9.585l.041-42.36Z" transform="translate(11.84 160.26)" fill="#fff"/>
+        </g>
+        <path id="Trazado_121025" data-name="Trazado 121025" d="M372.082,37.87h-8.571l-4.291,5.945,4.291,5.935h8.571l4.291-5.935Z" transform="translate(-359.175 -8.838)" fill="#00defc"/>
+      </g>
+      <g id="Grupo_113942" data-name="Grupo 113942" transform="translate(549.108 0.722)">
+        <path id="Trazado_121026" data-name="Trazado 121026" d="M686.89,29.07H691.3a5.679,5.679,0,0,1,5.676,5.676V54.66a5.679,5.679,0,0,1-5.676,5.676H686.89V29.07Z" transform="translate(-531.09 -9.725)" fill="#084a93"/>
+        <rect id="Rectángulo_40495" data-name="Rectángulo 40495" width="69.842" height="122.469" rx="12.45" transform="translate(122.53 0.107) rotate(90.05)" fill="#084a93"/>
+        <g transform="matrix(1, 0, 0, 1, -553.83, -169.92)" filter="url(#Trazado_121027)">
+          <path id="Trazado_121027-2" data-name="Trazado 121027" d="M542.9,24.294c0-5.625,5.707-10.174,12.728-10.174l130.162.052c6.69,0,12.107,4.343,12.107,9.7L697.857,66.6c0,5.356-5.428,9.688-12.118,9.688l-130.916-.052c-6.617,0-11.973-4.291-11.963-9.585l.041-42.36Z" transform="translate(17.85 159.69)" fill="#fff"/>
+        </g>
+        <path id="Trazado_121028" data-name="Trazado 121028" d="M549.112,38.44h-8.582l-4.291,5.935,4.291,5.945h8.582l4.28-5.945Z" transform="translate(-536.201 -9.407)" fill="#084a93"/>
+      </g>
+    </g>
+    <text id="Viewpoint_identification" data-name="Viewpoint
+identification" transform="translate(263 797)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-34.594" y="0">Viewpoint</tspan><tspan x="-45.281" y="21">identification</tspan></text>
+    <text id="Viewpoint_structuring" data-name="Viewpoint
+structuring" transform="translate(443 797)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-34.594" y="0">Viewpoint</tspan><tspan x="-37.887" y="21">structuring</tspan></text>
+    <text id="Viewpoint_documentation" data-name="Viewpoint
+documentation" transform="translate(627 797)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-34.594" y="0">Viewpoint</tspan><tspan x="-52.723" y="21">documentation</tspan></text>
+    <text id="Viewpoint_system_mapping" data-name="Viewpoint
+system mapping" transform="translate(813 797)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-34.594" y="0">Viewpoint</tspan><tspan x="-57.84" y="21">system mapping</tspan></text>
+    <text id="Método_VORD_definición_de_requerimientos_orientados_a_puntos_de_vida_" data-name="Método VORD (definición de requerimientos orientados a puntos de vida) " transform="translate(531 659)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-258.797" y="17">Método VORD (definición de requerimientos orientados a puntos de vida) </tspan></text>
+    <rect id="Rectángulo_40496" data-name="Rectángulo 40496" width="400" height="52" rx="20" transform="translate(325 601)" fill="#636363"/>
+    <text id="Orientada_a_puntos_de_vista" data-name="Orientada a puntos de vista" transform="translate(518 636)" fill="#fff" font-size="26" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-160.221" y="0">Orientada a puntos de vista</tspan></text>
+  </g>
+</svg>
