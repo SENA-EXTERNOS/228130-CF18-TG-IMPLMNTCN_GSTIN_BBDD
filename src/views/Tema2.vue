@@ -7,46 +7,47 @@
         span 2
       h1 Técnicas de recolección de requisitos
 
-    p.mb-5 Consisten en estudiar la forma de conseguir información de los clientes o usuarios, para el desarrollo un proyecto de 
+    p.mb-5(data-aos="fade-left") Consisten en estudiar la forma de conseguir información de los clientes o usuarios, para el desarrollo un proyecto de 
       em software. 
       |Es decir, se enfoca en la técnica que extrae los insumos para dar inicio al esquema. Para lograrlo es indispensable tener competencias sólidas para recolectar la información base, lo que abarca interpretar lo que desea los interesados, contactar al equipo de desarrollo, este proceso se conoce como elicitación.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img2-1.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Es importante tener claridad que los requisitos se pueden obtener de diversas formas, siendo las más comunes trabajar directamente con los involucrados, realizando investigaciones, pruebas y corrigiendo errores. Estos dos últimos aspectos sirven mucho, pero se debe hacer énfasis que la comunicación directa con los actores claves, eslabón fundamental en el proceso. #[br]#[br] Las técnicas de recolección de requisitos varían mucho y en algunos puntos se torna subjetivo.  los puntos clave que deben tenerse en cuenta se describen a continuación:#[br]#[br]
-
-        ul.lista-ul
-          li
-            i.lista-ul__vineta
-            |Reuniones grupales
-          li
-            i.lista-ul__vineta
-            |Prototipos
-          li
-            i.lista-ul__vineta
-            |Entrevistas
-          li
-            i.lista-ul__vineta
-            |Cuestionarios
-          li
-            i.lista-ul__vineta
-            |Observación y/o seguimiento
+    .bloque-texto-a.bloque-texto-2.p-4.p-md-5.mb-5
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='Base de datos')
+        .col-lg-8.order-sm-first.order-lg-last(data-aos="fade-left")
+          .bloque-texto-a__texto.p-4
+            p.mb-0 Es importante tener claridad que los requisitos se pueden obtener de diversas formas, siendo las más comunes trabajar directamente con los involucrados, realizando investigaciones, pruebas y corrigiendo errores. Estos dos últimos aspectos sirven mucho, pero se debe hacer énfasis que la comunicación directa con los actores claves, eslabón fundamental en el proceso. #[br]#[br] Las técnicas de recolección de requisitos varían mucho y en algunos puntos se torna subjetivo.  los puntos clave que deben tenerse en cuenta se describen a continuación:#[br]#[br]
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                |Reuniones grupales
+              li
+                i.lista-ul__vineta
+                |Prototipos
+              li
+                i.lista-ul__vineta
+                |Entrevistas
+              li
+                i.lista-ul__vineta
+                |Cuestionarios
+              li
+                i.lista-ul__vineta
+                |Observación y/o seguimiento
 
     Separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Técnicas tradicionales
 
-    p.mb-5 Dentro de las técnicas de recolección de datos existen las tradicionales, las cuales se describen a continuación:
+    p.mb-5(data-aos="fade-right") Dentro de las técnicas de recolección de datos existen las tradicionales, las cuales se describen a continuación:
 
-    .tarjeta.tarjeta--tabs.p-4.mb-5
-      TabsC.color-acento-contenido.mb-5
+    .tarjeta.tarjeta--tabs.p-4.mb-5(data-aos="zoom-in")
+      TabsC.color-acento-contenido
         .py-4.py-md-5(titulo="Lluvia de ideas")
           .row.justify-content-center.align-items-center
-            .col-md-4
+            .col-md-4.mb-sm-4
               figure
                 img(src='@/assets/curso/temas/tema2/img2-2.svg', alt='Ideas')
             .col-md-8.mb-4.mb-md-0
@@ -67,7 +68,7 @@
             
         .py-4.py-md-5(titulo="Talleres de trabajo <em>(workshop)</em>")
           .row.justify-content-center.align-items-center
-            .col-md-4
+            .col-md-4.mb-sm-4
               figure
                 img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Reunión virtual')
             .col-md-8.mb-4.mb-md-0
@@ -91,7 +92,7 @@
 
         .py-4.py-md-5(titulo="Listas de Verificación")
           .row.justify-content-center.align-items-center
-            .col-md-4
+            .col-md-4.mb-sm-4
               figure
                 img(src='@/assets/curso/temas/tema2/img2-4.svg', alt='Lista de chequeo')
             .col-md-8.mb-4.mb-md-0
@@ -126,18 +127,17 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-sm-10
-        p.mb-3 En la historia de la humanidad, la necesidad de mejora ha sido una constante en cada proceso, lo que ha llevado a la evolución en todos los ámbitos. Fue así como en el año 2001, se comienza a mencionar el término “ágil” en el mundo del desarrollo de 
+        p.mb-3(data-aos="fade-right") En la historia de la humanidad, la necesidad de mejora ha sido una constante en cada proceso, lo que ha llevado a la evolución en todos los ámbitos. Fue así como en el año 2001, se comienza a mencionar el término “ágil” en el mundo del desarrollo de 
           em software, 
           |dado que existían proyectos que contaban con todas las herramientas modernas para la época: infraestructura, sin embargo, los resultados, aunque eran los esperados, requerían demasiado tiempo, especialmente cuando surgían cambios.
-        p Fue así como un grupo de 17 personas, que venían trabajando en desarrollos de 
+        p(data-aos="fade-left") Fue así como un grupo de 17 personas, que venían trabajando en desarrollos de 
           em software
           |, con técnicas tradicionales, se dieron a la tarea de agilizarlos, dando al inicio a otra forma de trabajo, lo cual se conoce hoy como 
           em The Agil Alliance
           |, una organización que nació específicamente para promover aspectos referentes a la agilidad, surgiendo de esta forma lo que se conoce como el 
           em Manifiesto Ágil
           |. Dicho tratado se centra en unos postulados, donde sobresalen:
-        
-        ol
+        ol(data-aos="fade-right")
           li.mb-3
             i.fas.fa-circle.cac.me-3
             |La comunicación permanente con el cliente.
@@ -150,14 +150,14 @@
           li.mb-3
             i.fas.fa-circle.cac.me-3
             |Priman los individuos involucrados.
-      .col-md-4
+      .col-md-4.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
         img(src='@/assets/curso/temas/tema2/img2-5.svg', alt='Computador portátil, reloj inteligente')
 
-    p.mb-5 
+    p.mb-5(data-aos="fade-right")
       b Actualmente hay una gran variedad de tecnologías ágiles, siendo las más utilizadas:
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in")
       .row(titulo="<em>SCRUM</em>")
         .col-md-7.mb-4.mb-md-0
           p Es una metodología ágil, amplia, efectiva y ordenada que se establece para que varios equipos trabajen mancomunadamente y lograr soluciones optimas en proyectos de alto grado de complejidad. Lo anterior, se basa en el manejo de buenas prácticas para el trabajo en equipo con alta productividad. En el desarrollo de este método colaborativo, se hace una serie de entregables, parciales, constantes y ascendentes, dejando clara la meta o producto final, dándole prioridad a las necesidades más inmediatas que identifique el cliente.
@@ -169,13 +169,12 @@
           p Otro nicho de trabajo para 
             em Scrum, 
             |son los casos en donde el equipo y los clientes, no logran concretar los entregables, por ende, los plazos pactados se alargan, aumentando los costos sin mayor justificación. También se deben tener en cuenta escenarios muy complejos donde la competencia lleva la delantera y requiere una respuesta inmediata ante la situación.
-        .col-md-4
+        .col-md-4.order-sm-first.order-lg-last.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema2/img2-6.svg', alt='Tablero')
 
       .row(titulo="¿Cómo funciona <em>SCRUM</em>?")
         p Para poder entender el funcionamiento de esta metodología, es necesario conocer la forma de trabajo, basado en lo siguiente:
-
         ol
           li.mb-3
             i.fas.fa-circle.cac.me-3
@@ -187,7 +186,6 @@
             | 
             b Roles Básicos: 
             |por el funcionamiento mancomunado que se requiere, esta práctica se asocia con el Rugby, teniendo en cuenta el trabajo en equipo que se debe respetar para cumplir con los objetivos planteados. Para lograr este propósito, se requiere personas que desempeñen los siguientes roles: #[br]#[br]
-
             ol
               li.mb-3
                 i.fas.fa-circle.cab.me-3
@@ -239,7 +237,7 @@
       .row(titulo="<em>Extreme Programming (XP)</em>")
         .col-md-7.mb-4.mb-md-0
           p Esta técnica fue la precursora de las metodologías actuales; sin lugar a dudas, uno de los pilares de su éxito consiste en que cada iteración establece el alcance de la próxima, tiene un manejo avanzado de entregas frecuentes y continuas, advirtiendo que cada versión liberada debe ir a producción inmediatamente.
-        .col-md-4
+        .col-md-4.order-sm-first.order-lg-last.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema2/img2-7.png', alt='Programación extrema')
 
@@ -251,7 +249,7 @@
       .row(titulo="<em>Crystal</em>")
         .col-md-7.mb-4.mb-md-0
           p En la metodología sobresale por la estimación grupal, necesidades de la empresa, lo cual la hace ligera y versátil; hace énfasis en la eficiencia en el desarrollo de software, emplea fórmulas para que sean más rentables, priorizando la seguridad de los entregables; se tiene una comunicación fluida, efectúa constantes entregas, generando completa armonía con el usuario, partiendo del respeto por los puntos de vista.
-        .col-md-4
+        .col-md-4.order-sm-first.order-lg-last.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema2/img2-8.svg', alt='Explicación en tablero')
 
@@ -281,8 +279,7 @@
               |los incrementos se componen de iteraciones y de actividades que permiten construir, revisar, probar y controlar los objetivos de cada incremento. Ingeniería de 
               em Software 
               |I, (2018).
-
-        .col-md-4
+        .col-md-4.order-sm-first.order-lg-last.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema2/img2-9.svg', alt='Persona trabajando en un escritorio')
 
@@ -292,63 +289,62 @@
       h2 2.3  Técnicas de priorización de requisitos
 
     .bloque-texto-izquierda
-      .bloque-texto-a.bloque-texto-2.p-4.mb-5(data-aos="zoom-in" style="background-color: #E8E8E8")
+      .bloque-texto-a.bloque-texto-3.p-4.mb-5(data-aos="zoom-in" style="background-color: #E8E8E8")
         .row.m-0.align-items-center.justify-content-between
           .col-lg-8
             .contenedor-dashed.p-4
               .bloque-texto-a__texto.p-4
                 p.mb-3 Como se ha mencionado en capítulos anteriores, en la fase de consecución de información, se debe efectuar un correcto y efectivo levantamiento de requisitos, también es necesario priorizar dichas exigencias; tarea de alta complejidad, por las implicaciones, dado que en su mayoría genera fuertes controversias, incluso, posiciones encontradas, por ende, es de recalcar que se deben tomar decisiones así no todos los actores estén de acuerdo.
                 p.mb-0 Las técnicas más utilizadas son:
-          .col-lg-4.mb-4.mb-lg-0.p-4
-            img(src='@/assets/curso/temas/tema2/img2-10.svg', alt='Joven en escalera')
+          .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last
+            figure
+              img(src='@/assets/curso/temas/tema2/img2-10.svg', alt='Joven en escalera')
 
-    p.mb-5 
+    p.mb-5(data-aos="fade-right")
       em MosCow
       |, señala que todos los requisitos son importantes, no se puede demeritar ninguno, algunos son vitales, debido al funcionamiento de los procesos, tornándose obligatorios, lo cual indica, que, sin ellos, el proceso, no se puede ejecutar. Consiste en calificar los requisitos dentro de las categorías: 
       em Must, Should, Could or Would.
 
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema2/img2-11.svg', alt='MosCow')
-          
-      .tarjeta.color-acento-botones.p-3(x="10%" y="18%" numero="+")
-        h3
-          em Must
-        p Imperativo, obligatorio, forzoso
+    .row.justify-content-center.mb-5
+      .col-lg-12.col-sm-8(data-aos="zoom-in")
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img2-11.svg', alt='MosCow')
+          .tarjeta.color-acento-botones.p-3(x="10%" y="18%" numero="+")
+            h3
+              em Must
+            p Imperativo, obligatorio, forzoso
+          .tarjeta.color-acento-botones.p-3(x="90%" y="42%" numero="+")
+            h3
+              em Should
+            p Muy alta prioridad
+          .tarjeta.color-primario.p-3(x="10%" y="57%" numero="+")
+            h3
+              em Would
+            p Se puede aplazar para futuras ejecuciones
+          .tarjeta.color-acento-contenido.p-3(x="90%" y="81%" numero="+")
+            h3
+              em Could
+            p Importante, pero realmente no necesario
 
-      .tarjeta.color-acento-botones.p-3(x="90%" y="42%" numero="+")
-        h3
-          em Should
-        p Muy alta prioridad
-
-      .tarjeta.color-primario.p-3(x="10%" y="57%" numero="+")
-        h3
-          em Would
-        p Se puede aplazar para futuras ejecuciones
-
-      .tarjeta.color-acento-contenido.p-3(x="90%" y="81%" numero="+")
-        h3
-          em Could
-        p Importante, pero realmente no necesario
-
-    p.mb-5 En el siguiente video se puede conocer más sobre la técnica de 
+    p.mb-5(data-aos="fade-right") En el siguiente video se puede conocer más sobre la técnica de 
       em MosCoW
       |, es importante prestar mucha atención a las explicaciones que se detallan en allí:
 
-    figure
+    figure(data-aos="zoom-in")
       .video.mb-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/YqfR-9SoTrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-primario.p-5(data-aos="fade-right")
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema2/img2-12.svg', alt='Votación')
         h2.text-center Votación
         p Cuando se tienen una cantidad muy grande de requisitos, combinado con posiciones encontradas, una de las formas tradicionales y sencillas es la priorización a votación, dando un puntaje determinado.
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-secundario.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -361,16 +357,15 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4  Ventajas y desventajas
 
-    h3
+    h3(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
       | Ventajas
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-3
+      .col-md-3.col-sm-2(data-aos="fade-right")
         figure
-        img(src='@/assets/curso/temas/tema2/img2-14.svg', alt='Celular inteligente')
-
-      .col-md-8.col-sm-10.rectanguloid.p-4
+          img(src='@/assets/curso/temas/tema2/img2-14.svg', alt='Celular inteligente')
+      .col-md-8.col-sm-10.rectanguloid.p-4(data-aos="fade-left")
         ol
           li.mb-3
             i.fas.fa-circle.cst.me-3
@@ -394,16 +389,15 @@
             i.fas.fa-circle.cst.me-3
             |Al mejorar la calidad de los requerimientos, se eleva la calidad del producto final.
 
-    h3
+    h3(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
       | Desventajas
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-3
+      .col-md-3.col-sm-2(data-aos="fade-right")
         figure
-        img(src='@/assets/curso/temas/tema2/img2-15.svg', alt='Computador portátil')
-
-      .col-md-8.col-sm-10.rcacid.p-4
+          img(src='@/assets/curso/temas/tema2/img2-15.svg', alt='Computador portátil')
+      .col-md-8.col-sm-10.rcacid.p-4(data-aos="fade-left")
         ol
           li.mb-3
             i.fas.fa-circle.cst.me-3

@@ -8,7 +8,7 @@
       h1 
         em Viewpoint
     
-    p.mb-5 Se presenta a continuación el concepto de 
+    p.mb-5(data-aos="fade-left") Se presenta a continuación el concepto de 
       em Viewpoint 
       |y su campo de aplicación, así como los diferentes términos que se pueden emplear y determinan los privilegios de las antes mencionadas funciones, basadas principalmente en el concepto de los stakeholders. Medianero, (2015).
 
@@ -18,14 +18,14 @@
       h2 3.1 Concepto y aplicación
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-5.col-sm-10
+      .col-md-5.col-sm-10(data-aos="fade-right")
         p El modelo se cimienta en la integración de enfoque con puntos de vista, lo cual indica que la base fundamental es la metodología de 
           em AORE
           |. Inicialmente, se enfoca en las perspectivas de los actores, según las funcionalidades que desempeñan, haciendo posible un detallado y óptimo tratamiento.
         p El 
           em Viewpoint
           |, facilitas funciones a partir de los requerimientos del sistema, posteriormente, se clasifica las visibilidades por estas funcionalidades, se sigue realizando diagrama de casos y escenarios, así como también, la individualización de los requerimientos no funcionales.
-      .col-md-7
+      .col-md-7.col-sm-8(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img3-1.svg', alt="Puntos de vista")
 
@@ -34,30 +34,32 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2 Modelos
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img3-2.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p El concepto de modelo nace de la necesidad de mirar desde distintas perspectivas al 
-          em software 
-          |que se planea desarrollar, es decir, cuando se realiza el levantamiento de requisitos aplicando las técnicas que se están estudiando, dos usuarios del mismo proyecto pueden mirar y dar una visión distinta. Luego se debe presentar la perspectiva que realmente sea del interés del usuario y lleva a la correcta construcción del 
-          em software
-          |. Fue así como surgió el modelado de sistemas de información.#[br]#[br]
-        p.mb-0 Existen en el mercado distintas herramientas de modelado, sin embargo, es obligatorio centrarse en la herramienta universal, es decir, la que fue creada específicamente para estos menesteres: UML (lenguaje unificado de modelado, por sus siglas en inglés, 
-          em Unified Modeling Language
-          |), es el lenguaje de modelado más utilizado.
+    .bloque-texto-a.bloque-texto-2.p-4.p-md-5.mb-5
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='Modelos')
+        .col-lg-8.order-sm-first.order-lg-last(data-aos="fade-left")
+          .bloque-texto-a__texto.p-4
+            p El concepto de modelo nace de la necesidad de mirar desde distintas perspectivas al 
+              em software 
+              |que se planea desarrollar, es decir, cuando se realiza el levantamiento de requisitos aplicando las técnicas que se están estudiando, dos usuarios del mismo proyecto pueden mirar y dar una visión distinta. Luego se debe presentar la perspectiva que realmente sea del interés del usuario y lleva a la correcta construcción del 
+              em software
+              |. Fue así como surgió el modelado de sistemas de información.#[br]#[br]
+            p.mb-0 Existen en el mercado distintas herramientas de modelado, sin embargo, es obligatorio centrarse en la herramienta universal, es decir, la que fue creada específicamente para estos menesteres: UML (lenguaje unificado de modelado, por sus siglas en inglés, 
+              em Unified Modeling Language
+              |), es el lenguaje de modelado más utilizado.
 
-    p.mb-5 
+    p.mb-5(data-aos="fade-right")
       b Para conocer más sobre el UML se le invita a visualizar el video:
 
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in")
       .row(titulo="Lenguaje de modelado")
-        .col-md-3
+        .col-md-3.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema3/img3-3.svg', alt='Diseño diagrama de flujo')
         .col-md-8.mb-4.mb-md-0
@@ -65,7 +67,7 @@
           p En un lenguaje de modelado está compuesto por vistas, símbolos, diagramas, etc., y, por supuesto, las directrices específicas que explican la forma de utilización; sin perjuicio de la lógica normal que cada lógica de modelado requiera. Existen procedimientos explícitos para construir el pensamiento y el accionar de todos y cada uno de los individuos, recordando que este método es el que realmente guarda las acciones que se debe realizar y el momento de ejecutarlas.
       
       .row(titulo="Herramientas de modelado")
-        .col-md-3
+        .col-md-3.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema3/img3-4.svg', alt='Herramientas de modelado')
         .col-md-8.mb-4.mb-md-0
@@ -173,7 +175,7 @@
                   |Diagrama global de interacciones
 
       .row(titulo="Control de versiones ")
-        .col-md-3
+        .col-md-3.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema3/img3-5.svg', alt='Diseño diagrama de flujo')
         .col-md-8.mb-4.mb-md-0
@@ -206,46 +208,48 @@
       h2 3.3 
         em Stakeholders
 
-    p.mb-5 Este concepto data desde 1984, cuando el filósofo Robert Edward Freeman, lo definió como los grupos de interés en las empresas, en otras palabras, son personas que, de una u otra forma, hacen parte de los procesos de las organizaciones; en términos de la ingeniería de requisitos, es un individuo que será parte integral del software que se planea construir. Existen dos categorías principales de 
+    p.mb-5(data-aos="fade-left") Este concepto data desde 1984, cuando el filósofo Robert Edward Freeman, lo definió como los grupos de interés en las empresas, en otras palabras, son personas que, de una u otra forma, hacen parte de los procesos de las organizaciones; en términos de la ingeniería de requisitos, es un individuo que será parte integral del software que se planea construir. Existen dos categorías principales de 
       em Stakeholders:
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img3-6.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-4
-          ol
-            li.mb-3
-              i.fas.fa-circle.cac.me-3
-              |Primarios: se trata de sujetos con el rotulo de imprescindibles para el normal funcionamiento de la empresa, específicamente en el ámbito económico como los accionistas, dueños, clientes, trabajadores.#[br]#[br]
-            li.mb-3
-              i.fas.fa-circle.cac.me-3
-              |Secundarios: no tienen nada tienen que ver con la organización, pero que de una u otra forma, se ven afectados o beneficiados, aplica para la competencia, sindicatos, partidos políticos y en general toda la comunidad.#[br]#[br]
-        p.mb-4
-          b ¿La pregunta que surge es, cómo se identifican los 
-            em Stakeholders
-          |?#[br]#[br]
-        p.mb-4
-          ol
-            li.mb-3
-              i.fas.fa-circle.cac.me-3
-              |El primer paso es reconocer a los interesados en el proyecto, bien sean actores internos o externos a la empresa.#[br]#[br]
-            li.mb-3
-              i.fas.fa-circle.cac.me-3
-              |Seguidamente establecer de manera clara los intereses de la organización, en cuanto al proyecto planteado.#[br]#[br]
-            li.mb-3
-              i.fas.fa-circle.cac.me-3
-              |Posteriormente se fija el interés de cada uno de los 
-              em Stakeholders 
-              |equiparando el primer paso, con relación a lo planteado por la entidad, definiendo la influencia, peso específico y preponderancia.#[br]#[br]
-            li.mb-3
-              i.fas.fa-circle.cac.me-3
-              |Para finalizar se clasifican por niveles.
+    .bloque-texto-a.bloque-texto-2.p-4.p-md-5.mb-5(data-aos="zoom-in")
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/temas/tema3/img3-6.svg', alt='Stakeholder')
+        .col-lg-8.order-sm-first.order-lg-last(data-aos="fade-left")
+          .bloque-texto-a__texto.p-4
+            p.mb-0
+              ol
+                li
+                  i.fas.fa-circle.fa-xs.cac.me-3
+                  |Primarios: se trata de sujetos con el rótulo de imprescindibles para el normal funcionamiento de la empresa, específicamente en el ámbito económico como los accionistas, dueños, clientes, trabajadores.#[br]#[br]
+                li
+                  i.fas.fa-circle.fa-xs.cac.me-3
+                  |Secundarios: no tienen nada tienen que ver con la organización, pero que de una u otra forma, se ven afectados o beneficiados, aplica para la competencia, sindicatos, partidos políticos y en general toda la comunidad.#[br]#[br]
+            p
+              b ¿La pregunta que surge es, cómo se identifican los 
+                em Stakeholders
+                |?
+            p
+              ol
+                li
+                  i.fas.fa-circle.fa-xs.cac.me-3
+                  |El primer paso es reconocer a los interesados en el proyecto, bien sean actores internos o externos a la empresa.#[br]#[br]
+                li
+                  i.fas.fa-circle.fa-xs.cac.me-3
+                  |Seguidamente establecer de manera clara los intereses de la organización, en cuanto al proyecto planteado.#[br]#[br]
+                li
+                  i.fas.fa-circle.fa-xs.cac.me-3
+                  |Posteriormente se fija el interés de cada uno de los 
+                  em Stakeholders 
+                  |equiparando el primer paso, con relación a lo planteado por la entidad, definiendo la influencia, peso específico y preponderancia.#[br]#[br]
+                li
+                  i.fas.fa-circle.fa-xs.cac.me-3
+                  |Para finalizar se clasifican por niveles.
 
-    p La traducción literal al español de 
+    p(data-aos="fade-right") La traducción literal al español de 
       em Stakeholders 
-      |es inexacta, debido a que varía la interpretación dependiendo del área del estudio o contexto, puede ser un interesado, pero también puede ser un afectado por el proyecto.
+      |es inexacta, debido a que varía la interpretación dependiendo del área de estudio o contexto, puede ser un interesado, pero también puede ser un afectado por el proyecto.
       
 </template>
 
