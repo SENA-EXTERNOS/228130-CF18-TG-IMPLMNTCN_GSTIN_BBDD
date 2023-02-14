@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Construcción del informe de requisitos',
     descripcionCurso:
-      'En los proyectos de desarrollo de <em>software</em>, resulta determinante la fase de levantamiento de información, razón por la cual se debe estudiar a fondo el tema, dado que se trata de la base fundamental del <em>software</em> que se planea producir. Ahora bien, para afinar las competencias en estos aspectos, se requiere el estudio de las técnicas que permiten el mejor aprovechamiento de la mencionada información.',
+      'En los proyectos de desarrollo de <em>software</em>, resulta determinante la fase de levantamiento de información, razón por la cual se debe estudiar a fondo el tema, que es la base fundamental del <em>software</em> que se planea producir. Ahora bien, desarrollar las competencias en estos aspectos, requiere el estudio de las técnicas que permitan el mejor aprovechamiento de esta información.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -44,24 +44,24 @@ export default {
         titulo: 'Requisitos de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Requisitos funcionales',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Requisitos no funcionales',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Estándares',
-            hash: 't_1_3',
-          },
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '1.1',
+          //titulo: 'Requisitos funcionales',
+          //hash: 't_1_1',
+          //},
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '1.2',
+          //titulo: 'Requisitos no funcionales',
+          //hash: 't_1_2',
+          //},
+          //{
+          // icono: 'far fa-file-alt',
+          //numero: '1.3',
+          //titulo: 'Estándares',
+          //hash: 't_1_3',
+          //},
         ],
       },
 
@@ -72,30 +72,30 @@ export default {
         titulo: 'Técnicas de recolección de requisitos',
         desarrolloContenidos: true,
         subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Técnicas tradicionales',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Técnicas ágiles',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Técnicas de priorización de requisitos',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Ventajas y desventajas',
-            hash: 't_2_4',
-          },
+          //{
+          // icono: 'far fa-file-alt',
+          //numero: '2.1',
+          //titulo: 'Técnicas tradicionales',
+          //hash: 't_2_1',
+          //},
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '2.2',
+          //titulo: 'Técnicas ágiles',
+          //hash: 't_2_2',
+          //},
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '2.3',
+          //titulo: 'Técnicas de priorización de requisitos',
+          //hash: 't_2_3',
+          //},
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '2.4',
+          //titulo: 'Ventajas y desventajas',
+          //hash: 't_2_4',
+          //},
         ],
       },
       {
@@ -105,24 +105,24 @@ export default {
         titulo: '<em>Viewpoint</em>',
         desarrolloContenidos: true,
         subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Concepto y aplicación',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Modelos',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: '<em>Stakeholders</em>',
-            hash: 't_3_3',
-          },
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '3.1',
+          //titulo: 'Concepto y aplicación',
+          //hash: 't_3_1',
+          //},
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '3.2',
+          //titulo: 'Modelos',
+          //hash: 't_3_2',
+          //},
+          //{
+          //icono: 'far fa-file-alt',
+          //numero: '3.3',
+          //titulo: '<em>Stakeholders</em>',
+          //hash: 't_3_3',
+          //},
         ],
       },
     ],
@@ -168,37 +168,35 @@ export default {
   },
   complementario: [
     {
-      tema: 'Ingeniería de Requerimientos',
-      referencia: '<em>Pressman, R. (2010). Séptima Edición.</em>',
+      tema: 'Requisitos de <em>software</em>',
+      referencia:
+        'Pressman, R. (2010). Ingeniería de <em>software</em> Un enfoque práctico. <em>Séptima Edición.</em>',
       tipo: 'Libro',
       link:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=',
+        'http://cotana.informatica.edu.bo/downloads/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF',
     },
     {
-      tema: 'Ingeniería de Requerimientos',
-      referencia: '<em>Sommerville, I (2011). Novena Edición.</em>',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=3313',
-    },
-    {
-      tema: 'Requerimientos',
-      referencia: '<em>Cervantes Maceda, H. (2016). Primera Edición.</em>',
-      tipo: 'Libro',
-      link: ' https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=1983',
-    },
-    {
-      tema: 'Ingeniería de Requerimientos',
-      referencia: '<em>Pressman, R. (2010).  Séptima Edición.</em>',
+      tema: 'Requisitos de <em>software</em> ',
+      referencia:
+        'Sommerville, I (2011). <em>Ingeniería de software. Novena Edición.</em> ',
       tipo: 'Libro',
       link:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=',
+        'https://gc.scalahed.com/recursos/files/r161r/w25469w/ingdelsoftwarelibro9_compressed.pdf',
+    },
+    {
+      tema: 'Requisitos de <em>software</em>',
+      referencia:
+        'Cervantes Maceda, H. (2016). Arquitectura de <em>software</em>. Conceptos y ciclo de desarrollo. ',
+      tipo: 'Libro',
+      link:
+        'https://www.researchgate.net/profile/Perla-Velasco-Elizondo/publication/281137715_Arquitectura_de_Software_Conceptos_y_Ciclo_de_Desarrollo/links/57144e1408aeebe07c0641ab/Arquitectura-de-Software-Conceptos-y-Ciclo-de-Desarrollo.pdf',
     },
   ],
   glosario: [
     {
       termino: '<em>MoSCoW</em>',
       significado:
-        'técnica de priorización de requisitos que consiste en calificar dichos requisitos dentro de las categorías: <em>Must, Should, Could or Would.</em>',
+        'técnica de priorización de requisitos que consiste en calificar dichos requisitos dentro de las categorías: <em>Must, Should, Could o Would</em>',
     },
     {
       termino: 'Ingeniería del <em>software</em>',
@@ -249,58 +247,65 @@ export default {
   referencias: [
     {
       referencia:
-        '<em>Apiumhub</em>, (2016), <em>Técnicas de priorización de requerimientos de software que debes saber.</em>',
+        '<em>Acuña, Andrea Paola. (2012).</em> La gestión de los stakeholders. Análisis de los diferentes modelos. Encuentro Regional Zona Sur Adenag Trelew, 19 y 20 de abril de 2012. Universidad del Sur.',
+      link:
+        'https://www.fundacionseres.org/lists/informes/attachments/1064/la%20gesti%c3%b3n%20de%20los%20stakeholders.%20an%c3%a1lisis%20de%20los%20diferentes%20modelos.pdf',
+    },
+    {
+      referencia:
+        'Apiumhub, (2020). <em>Técnicas de priorización de requerimientos de software que debes saber.</em>',
       link:
         'https://apiumhub.com/es/tech-blog-barcelona/priorizacion-requerimientos-software/',
     },
     {
       referencia:
-        'Debrauwer, L. & Van Der, F. (2020), <em>UML 2.5 Iniciación, ejemplos y ejercicios corregidos</em> (5ª edición).',
+        'Debrauwer, L. & Van Der, F. (2020). <em>UML 2.5 Iniciación, ejemplos y ejercicios corregidos</em> (5ª edición).',
       link:
         'https://www-eni-training-com.bdigital.sena.edu.co/portal/client/mediabook/home',
     },
     {
       referencia:
-        '<em>Edteam</em>, (2017), <em>¿Cómo se deciden las versiones del software?</em>',
+        'Edteam, (2017). <em>¿Cómo se deciden las versiones del software?</em>',
       link: 'https://ed.team/blog/como-se-deciden-las-versiones-del-software',
     },
     {
       referencia:
-        'Grupo ACMS Consultores, (2019), <em>Norma ISO 33000 Calidad de procesos de desarrollo software.</em>',
+        'Grupo ACMS Consultores. (2019). <em>Norma ISO 33000 Calidad de procesos de desarrollo software.</em> ',
       link: 'https://www.grupoacms.com/norma-iso-33000',
     },
     {
       referencia:
-        'IEBS Business School, (2022), <em>Qué es un product backlog y cómo hacer uno.</em>',
+        'IEBS Business School. (2022). Qué es un <em>product backlog</em> y cómo hacer uno.',
       link:
         'https://www.iebschool.com/blog/que-es-un-product-backlog-y-como-hacer-uno-guia-scrum-agile-scrum/#:~:text=Un%20product%20backlog%20es%20una,visibles%20para%20todo%20el%20equipo',
     },
     {
       referencia:
-        'Ingeniería de <em>Software</em> I, (2018), <em>Ingeniería de software I</em>.',
+        'Ingeniería de <em>Software</em> I. (2018). <em>Ingeniería de software I.</em>',
       link:
         'https://isi2018.wordpress.com/2018/04/09/metodologia-agil-crystal/',
     },
     {
       referencia:
-        'Lis, G, & Pantaleo, L. (2018), <em>Ingeniería de Software. (1ª Ed.)</em>.',
+        'Lis, G, & Pantaleo, L. (2018), <em>Ingeniería de Software.</em> ',
       link:
         'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/ingenieria-de-software?location=155',
     },
     {
       referencia:
-        'Peralta, E. (2021), <em>Cómo Funciona la Metodología Scrum</em>.',
+        'Peralta, E. (2021). <em>Cómo Funciona la Metodología Scrum.</em>',
       link: 'https://www.genwords.com/blog/metodologia-scrum',
     },
     {
       referencia:
-        'Pressman, R. &  Maxim, B. (2021). <em>Ingeniería de software – Un enfoque práctico. Novena Edición</em>.',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=16414',
+        'Pressman, R. &  Maxim, B. (2021). <em>Ingeniería de software – Un enfoque práctico. Novena Edición.</em> ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=16414  ',
     },
     {
       referencia:
-        '<em>Sommerville, I (2011), Ingeniería del software. Novena Edición</em>. México: Pearson Educación.',
-      link: '',
+        '<em>Sommerville, I. (2011). Ingeniería del software. Novena Edición.</em> Pearson Educación',
+      link:
+        'https://gc.scalahed.com/recursos/files/r161r/w25469w/ingdelsoftwarelibro9_compressed.pdf',
     },
   ],
   creditos: {

@@ -18,10 +18,10 @@
             figure
               img(src='@/assets/curso/temas/tema1/img1-1.svg', alt='Imagen decorativa')
         h2.text-center Definición
-        p Los requisitos 
+        p Los requisitos del 
           em software 
           |son la definición de las características y funciones del sistema planteado.
-        p Dichos requerimientos anuncian lo que  los clientes necesitan o pretenden, dejan claro sus expectativas; no obstante, en algunas ocasiones, los mencionados requisitos pueden quedan ocultos a la vista de los interesados, pero en la retina de los usuarios, contrario sensu, la mayoría de los requisitos son obvios, incluso para el mismo cliente.
+        p Dichos requerimientos anuncian lo que  los clientes necesitan o pretenden, dejando claro sus expectativas; no obstante, en algunas ocasiones, los mencionados requisitos pueden quedan ocultos a la vista de los interesados, pero en la retina de los usuarios, o puede suceder que la mayoría de los requisitos sean obvios, incluso para el mismo cliente. 
         p Algunas lecturas cambian la palabra “requisitos” por “servicios”, pero realmente se refieren al mismo concepto.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -47,8 +47,8 @@
 
     Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Requisitos funcionales
+    #t_1_1(data-aos='fade-right')
+      h3 Requisitos funcionales
 
     p.mb-5(data-aos="fade-right") En el siguiente ítem, encontrará información sobre los requisitos funcionales de un proyecto de desarrollo de 
       em software.
@@ -63,7 +63,7 @@
               |son los que describen todas las actividades que el sistema debe realizar, es decir, definen los comportamientos o funciones, particulares o generales del mencionado procesador en determinados momentos y condiciones específicas. Generalmente, estos requerimientos funcionales, deben incluir procesos cumplidos por formularios, interfaces, descripciones de los flujos de trabajo, cálculos, rutinas, etc., y en general todas las exigencias del negocio que el sistema debe cumplir.
             p En otras palabras, los servicios funcionales se definen como declaraciones del trabajo que realizará el 
               em software 
-              |o los resultados que debe brindarnos el mismo ante el ingreso de determinados datos; aclarando que el término “datos de entradas”, no necesariamente se refiere exclusivamente a la información digitada por los usuarios, también puede ser respuestas automáticas de otros desarrollos e incluso procesos predefinidos. Lo anterior, sin mencionar que, en muchas ocasiones, los requisitos funcionales establecen clara y explícitamente lo que el sistema no debe o no puede hacer. Esto no se concretar como  definición alternativa, dejando claro el concepto de requerimiento funcional, mediante una declaración negativa de lo que no puede pasar; lo cual lo convierte en algo correcto y necesario determinar cuándo se presente.
+              |o los resultados que debe brindarnos el mismo ante el ingreso de determinados datos; aclarando que el término “datos de entradas”, no necesariamente se refiere exclusivamente a la información digitada por los usuarios, también pueden ser respuestas automáticas de otros desarrollos e incluso procesos predefinidos. Lo anterior, sin mencionar que, en muchas ocasiones, los requisitos funcionales establecen clara y explícitamente lo que el sistema no debe o no puede hacer. Esto no se concreta como una definición alternativa, dejando claro el concepto de requerimiento funcional, mediante una declaración negativa de lo que no puede pasar; lo cual lo convierte en algo correcto y necesario determinar cuándo se presente.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Imagen decorativa')
@@ -83,7 +83,10 @@
                 |Definir los datos de entrada completos y bien validados.
               li
                 i.lista-ul__vineta
-                |Determinar todas y cada una de las operaciones a realizar en cada formulario, interface, etc. #[br] Resolver de manera clara y concisa los reportes requeridos.
+                |Determinar todas y cada una de las operaciones a realizar en cada formulario, interface, etc.
+              li
+                i.lista-ul__vineta
+                |Resolver de manera clara y concisa los reportes requeridos.  
               li
                 i.lista-ul__vineta
                 p.mb-0 Precisar roles de usuario, especialmente para determinar quiénes y cuándo pueden digitar datos al 
@@ -106,7 +109,13 @@
                 |Ayuda en la verificación, es decir que la aplicación realmente está proporcionando todas las funciones requeridas y prometidas.
               li
                 i.lista-ul__vineta
-                |Ayuda en la definición de las funcionalidades de un sistema o en su defecto de sus subsistemas. #[br] Permite completar las necesidades planteadas y posiblemente faltantes. #[br] Accede a depurar errores cometidos en la obtención de requisitos, en aras de afinar los resultados finales.
+                |Ayuda en la definición de las funcionalidades de un sistema o en su defecto de sus subsistemas.
+              li
+                i.lista-ul__vineta
+                |Permite completar las necesidades planteadas y posiblemente faltantes.
+              li
+                i.lista-ul__vineta
+                |Accede a depurar errores cometidos en la obtención de requisitos, en aras de afinar los resultados finales. 
               li
                 i.lista-ul__vineta
                 |Posibilita cumplir con los objetivos propuestos, así como las actividades planteadas y las tareas correspondientes.
@@ -123,28 +132,28 @@
             ul.lista-ul
               li
                 i.lista-ul__vineta
-                |Auditoría
+                |Auditoría.
               li
                 i.lista-ul__vineta
-                |Interfaces internas y externas
+                |Interfaces internas y externas.
               li
                 i.lista-ul__vineta
-                |Histórico de datos
+                |Histórico de datos.
               li
                 i.lista-ul__vineta
-                |Transaccionales
+                |Transaccionales.
               li
                 i.lista-ul__vineta
-                |Certificación
+                |Certificación.
               li
                 i.lista-ul__vineta
-                |Reglas del negocio
+                |Reglas del negocio.
               li
                 i.lista-ul__vineta
-                |Roles y permisos de usuarios
+                |Roles y permisos de usuarios.
               li
                 i.lista-ul__vineta
-                |Gestión legal
+                |Gestión legal.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.svg', alt='Imagen decorativa')
@@ -177,15 +186,18 @@
                 |El sistema le asignará un número consecutivo, único e irrepetible a cada pedido, para identificarlo en todos los procesos del inventario.
               li
                 i.lista-ul__vineta
-                |El campo ‘Neto a Pagar' únicamente acepta valores decimales con dos posiciones.
+                |El campo ‘Neto a Pagar' únicamente acepta valores decimales, con dos posiciones.
               li
                 i.lista-ul__vineta
                 |El campo ‘fecha de nacimiento’ únicamente acepta una fecha que indique que el trabajador tiene entre 18 y 65 años, rango de edad determinada por políticas de la empresa.
               li
                 i.lista-ul__vineta
-                p Los clientes tendrán disponible únicamente los productos con 
+                p.mb-0 Los clientes tendrán disponible únicamente los productos con 
                   em stock 
-                  | suficiente. El administrador del sistema podrá ver las ganancias, perdidas y principales balances contables en tiempo real.
+                  | suficiente. 
+              li
+                i.lista-ul__vineta    
+                |El administrador del sistema podrá ver las ganancias, pérdidas y principales balances contables en tiempo real.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-9.svg', alt='Imagen decorativa')
@@ -209,8 +221,8 @@
 
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Requisitos no funcionales
+    #t_1_2(data-aos='fade-right')
+      h3 Requisitos no funcionales
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-1.col-sm-2(data-aos="fade-right")
@@ -284,7 +296,9 @@
               |los servidores que alojan las aplicaciones web requieren gran capacidad de almacenamiento y procesamiento de datos, ya que deben responder muchas solicitudes en cuestión de pocos segundos.
 
           div(titulo="Ejemplos de requerimientos funcionales")
-            p Cada transacción (clic) debe tener una respuesta del software de máximo 5 segundos.
+            p Cada transacción (clic) debe tener una respuesta del 
+              em software 
+              |de máximo 5 segundos.
             p El 
               em software 
               |debe poder trabajar sin problemas hasta con 80 mil usuarios conectados simultáneamente.
@@ -314,8 +328,8 @@
 
     Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Estándares
+    #t_1_3(data-aos='fade-right')
+      h3 Estándares
 
     p.mb-5(data-aos="fade-left") Un estándar, es un modelo, una referencia o un patrón a seguir. En este sentido, un estándar de calidad, se refiere a las normas mínimas que se deben cumplir para obtener el más alto nivel de calidad de un producto.
 
@@ -335,9 +349,8 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-14.svg', alt="Hoja digital")
       .col-md-11.col-sm-10(data-aos="fade-left")
-        p A continuación, se dan a conocer las normas aplicadas al desarrollo de 
-          em software 
-          |más comunes.
+        p A continuación, se dan a conocer las normas más comunes, aplicadas al desarrollo de 
+          em software: 
         p Uno de los temas más importantes de recolección de requisitos son los estándares que se trabajan en esta industria y mediante esta herramienta, se presentan las más usadas.
 
     .row.justify-content-center.mb-5
@@ -377,7 +390,8 @@
           .col-lg-8
             .contenedor-dashed.p-4
               .bloque-texto-a__texto.p-4
-                p.mb-3 La norma ISO 33000 aporta líneas de trabajo coherentes para la evaluación de procesos software, Grupo ACMS Consultores, (2019).
+                p.mb-3 La norma ISO 33000 aporta líneas de trabajo coherentes para la evaluación de procesos 
+                  em software.
                 p.mb-3
                   b ¿Qué establece la Norma ISO 33000 “Calidad de los procesos de desarrollo de 
                   b 
