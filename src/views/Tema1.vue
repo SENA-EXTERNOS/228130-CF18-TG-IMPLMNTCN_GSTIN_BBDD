@@ -225,7 +225,7 @@
       h3 Requisitos no funcionales
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-1.col-sm-2(data-aos="fade-right")
+      .col-md-1.col-sm-2
         figure
           img(src='@/assets/curso/temas/tema1/img1-11.svg', alt="Monitor")
       .col-md-11.col-sm-10(data-aos="fade-left")

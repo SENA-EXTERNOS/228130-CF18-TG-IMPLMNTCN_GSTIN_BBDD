@@ -179,11 +179,11 @@
           li.mb-3
             i.fas.fa-circle.cac.me-3
             |
-            b Sprint: 
-            |es el corazón del Scrum, se refiere a cualquier interacción realizada por el equipo. Los desarrolladores completarán muchos sprints a lo largo del mismo. Se inicia con el compromiso de un hacer determinada tarea y debe finalizar con la prueba real de un entregable. Cada proceso tiene una duración mínima de una semana y máximo 4.
+            em.text-bold Sprint: 
+            |es el corazón del #[i Scrum], se refiere a cualquier interacción realizada por el equipo. Los desarrolladores completarán muchos sprints a lo largo del mismo. Se inicia con el compromiso de un hacer determinada tarea y debe finalizar con la prueba real de un entregable. Cada proceso tiene una duración mínima de una semana y máximo 4.
           li.mb-3
             i.fas.fa-circle.cac.me-3
-            | 
+            |  
             b Roles Básicos: 
             |por el funcionamiento mancomunado que se requiere, esta práctica se asocia con el Rugby, teniendo en cuenta el trabajo en equipo que se debe respetar para cumplir con los objetivos planteados. Para lograr este propósito, se requieren personas que desempeñen los siguientes roles: #[br]#[br]
             ol
