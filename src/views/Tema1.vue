@@ -224,11 +224,11 @@
     #t_1_2(data-aos='fade-right')
       h3 Requisitos no funcionales
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-md-1.col-sm-2
-        figure
+        figure 
           img(src='@/assets/curso/temas/tema1/img1-11.svg', alt="Monitor")
-      .col-md-11.col-sm-10(data-aos="fade-left")
+      .col-md-11.col-sm-10
         p Conozca qué son y cómo funcionan los requisitos no funcionales de un proyecto de desarrollo de 
           em software.
         p Los requisitos no funcionales son características, cualidades o restricciones del 
