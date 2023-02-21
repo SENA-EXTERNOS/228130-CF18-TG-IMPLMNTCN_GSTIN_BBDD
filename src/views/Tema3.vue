@@ -83,10 +83,10 @@
               b Erwin Data Modeler: 
               |el 
               em software 
-              |de modelado de datos número uno del mundo. Es una herramienta galardonada y utilizada para encontrar, visualizar, diseñar, desplegar y estandarizar activos de datos empresariales de alta calidad. reducen la complejidad, facilitando el diseño, el despliegue y la comprensión de las fuentes de información, para satisfacer las necesidades del negocio. 
+              |de modelado de datos número uno del mundo. Es una herramienta galardonada y utilizada para encontrar, visualizar, diseñar, desplegar y estandarizar activos de datos empresariales de alta calidad. Reducen la complejidad, facilitando el diseño, el despliegue y la comprensión de las fuentes de información, para satisfacer las necesidades del negocio. 
               em Apiumhub
               |, (2020)
-            li.mb-3
+            li.mb-3 
               i.fas.fa-circle.cac.me-3
               | 
               b Moon Modeler: 

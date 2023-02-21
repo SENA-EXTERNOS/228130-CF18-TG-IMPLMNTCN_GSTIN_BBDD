@@ -183,7 +183,7 @@
             |es el corazón del #[i Scrum], se refiere a cualquier interacción realizada por el equipo. Los desarrolladores completarán muchos sprints a lo largo del mismo. Se inicia con el compromiso de un hacer determinada tarea y debe finalizar con la prueba real de un entregable. Cada proceso tiene una duración mínima de una semana y máximo 4.
           li.mb-3
             i.fas.fa-circle.cac.me-3
-            |  
+            | 
             b Roles Básicos: 
             |por el funcionamiento mancomunado que se requiere, esta práctica se asocia con el Rugby, teniendo en cuenta el trabajo en equipo que se debe respetar para cumplir con los objetivos planteados. Para lograr este propósito, se requieren personas que desempeñen los siguientes roles: #[br]#[br]
             ol
@@ -234,7 +234,7 @@
           em Scrum 
           |fue un verdadero fracaso, por múltiples factores, no respetaron pasos obligatorios e imprescindibles, como hacer  pruebas semanales de los pequeños resultados con entregas parciales, para minimizar y asimilar errores, a pesar de contratar una cantidad excesiva de consultores, no asignaron el liderazgo del proyecto; fue lanzado por fases, como lo exige 
           em Scrum
-          |, por su entorno altamente cambiante, lo cual requiere organización semanalmente; sin mencionar que las pruebas finales, se realizaron en un periodo de tiempo demasiado corto. Peralta, (2021).
+          |, por su entorno altamente cambiante, lo cual requiere organización semanalmente; sin mencionar que las pruebas finales, se realizaron en un periodo de tiempo demasiado corto. Peralta, (2021)
 
       .row.justify-content-center(titulo="<em>Extreme Programming (XP)</em>")
         .col-md-12.mb-4.mb-md-0
@@ -299,7 +299,7 @@
             .contenedor-dashed.p-4
               .bloque-texto-a__texto.p-4
                 p.mb-3 Como se ha mencionado en capítulos anteriores, en la fase de consecución de información, se debe efectuar un correcto y efectivo levantamiento de requisitos, también es necesario priorizar dichas exigencias; tarea de alta complejidad, por las implicaciones, dado que en su mayoría genera fuertes controversias, incluso, posiciones encontradas, por ende, es de recalcar que se deben tomar decisiones así no todos los actores estén de acuerdo.
-                p.mb-0 Se sugiere cambiar la imagen, porque la numeración que contiene, se presta a confusión:
+                p.mb-0 Las técnicas más utilizadas son:
           .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last
             figure
               img(src='@/assets/curso/temas/tema2/img2-10.svg', alt='Joven en escalera')
