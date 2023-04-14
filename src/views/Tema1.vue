@@ -263,9 +263,7 @@
                 | #[b Control de contraseñas:]
                 |es necesario exigir la utilización de contraseñas fuertes que contengan características como un mínimo de 8 caracteres, obligatoriedad de combinar mayúsculas, minúsculas, números y caracteres especiales. Incluso, puede indicarle al algoritmo que genere dichas contraseñas al usuario, si este lo desea. También es importante agregar preguntas de seguridad previamente establecidas por los usuarios en los procesos de recuperación de contraseñas.
 
-            p 
-              b Compatibilidad: el mundo está cada vez más conectado, lo cual 
-              |obliga a construir aplicaciones compatibles con la mayor cantidad de dispositivos posibles. En consecuencia, se deben diseñar aplicaciones que funcionen en cualquier navegador y dispositivo. 
+            p #[b Compatibilidad:] el mundo está cada vez más conectado, lo cual obliga a construir aplicaciones compatibles con la mayor cantidad de dispositivos posibles. En consecuencia, se deben diseñar aplicaciones que funcionen en cualquier navegador y dispositivo. 
             p 
               b Usabilidad: 
               |depende de elementos como:

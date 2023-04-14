@@ -57,7 +57,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gVt_zU_E8wY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     p.mb-4 Para llevar a cabo la programación, es indispensable utilizar un control de versiones y herramientas del modelado. Actualmente, se cuenta con varios proyectos interesantes relacionados con el lenguaje del modelado; a continuación, se hace una breve conceptualización al respecto:
 
