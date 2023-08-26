@@ -99,7 +99,7 @@
             .col-md-8.mb-4.mb-md-0
               p Denominado 
                 em “checklist” 
-                |o lista de verificación se utiliza para analizar una o más propiedades de un tema en concreto que se somete a consideración de un grupo de observadores. Generalmente esta herramienta se cumple mediante una lista de preguntas con respuestas cerradas. Algunos autores las denominan como “respuestas binarias” ya que se niega 
+                |o lista de verificación se utiliza para analizar una o más propiedades de un tema en concreto que se somete a consideración de un grupo de observadores, generalmente esta herramienta se cumple mediante una lista de preguntas con respuestas cerradas. Algunos autores las denominan como “respuestas binarias”, ya que se niega 
                 em (false) 
                 |o aprueba 
                 em (true). 
@@ -110,7 +110,7 @@
               ol
                 li.mb-3
                   i.fas.fa-circle.cac.me-3
-                  |Crear el registro respetando detalles como categoría, la escala determinada en cada pregunta y un detalle que parece obvio, pero es necesario mencionar, dibujar las cuadriculas que guíen al usuario en el manejo de la misma.
+                  |Crear el registro respetando detalles como categoría, la escala determinada en cada pregunta y un detalle que parece obvio, pero es necesario mencionar, dibujar las cuadrículas que guíen al usuario en el manejo de la misma.
                 li.mb-3
                   i.fas.fa-circle.cac.me-3
                   |Determinar los periodos de verificación en forma clara y concisa.
@@ -306,7 +306,7 @@
 
     p.mb-5(data-aos="fade-right")
       em MosCow
-      |, señala que todos los requisitos son importantes, no se puede demeritar ninguno, algunos son vitales, debido al funcionamiento de los procesos, tornándose obligatorios, lo cual indica, que, sin ellos, el proceso, no se puede ejecutar. Consiste en calificar los requisitos dentro de las categorías: 
+      |, señala que todos los requisitos son importantes, no se puede desmeritar ninguno, algunos son vitales, debido al funcionamiento de los procesos, tornándose obligatorios, lo cual indica, que, sin ellos, el proceso, no se puede ejecutar. Consiste en calificar los requisitos dentro de las categorías: 
       em Must, Should, Could or Would.
 
     .row.justify-content-center.mb-5
@@ -354,7 +354,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img2-13.svg', alt='Lista de chequeo')
         h2.text-center Técnica de clasificación de lista
-        p Muchos expertos prefieren esta técnica, dado que realmente no requiere mayor preparación ni esfuerzo, simplemente consiste en hacer un análisis simple, es decir, primero hago esto, y después aquello. Por ejemplo, si vamos a recorrer Colombia desde el norte hasta el sur, entonces comenzamos: primero por Riohacha, luego visitamos Santa Marta, y entonces surge el interrogante: ¿puedo ir a Cartagena sin pasar por Barranquilla?: la respuesta es sí, pero no tiene sentido, porque es más práctico ir primero a Barraquilla y de allí pasar a Cartagena. Así de simple es la técnica.
+        p Muchos expertos prefieren esta técnica, dado que realmente no requiere mayor preparación ni esfuerzo, simplemente consiste en hacer un análisis simple, es decir, primero hago esto, y después aquello. Por ejemplo, si vamos a recorrer Colombia desde el norte hasta el sur, entonces comenzamos: primero por Riohacha, luego visitamos Santa Marta, y entonces surge el interrogante: ¿puedo ir a Cartagena sin pasar por Barranquilla?: la respuesta es sí, pero no tiene sentido, porque es más práctico ir primero a Barranquilla y de allí pasar a Cartagena. Así de simple es la técnica.
       
     Separador
 
@@ -372,25 +372,25 @@
       .col-md-8.col-sm-10.rectanguloid.p-4(data-aos="fade-left")
         ol
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Permite establecer una comunicación fluida entre usuarios y desarrolladores, facilitando la comprensión entre sí.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Se eliminan los intermediarios entre las partes, por lo tanto, la información no tiene peligro de distorsión.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Es posible captar incluso hasta el lenguaje corporal de los clientes, lo cual nos facilita la comprensión de gestos, tonos de voz, etc.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Facilita la determinación de funciones, las utilidades que requiere el sistema y la posibilidad de atender las necesidades, de forma temprana, evitando reprocesos.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
-            |La cercanía con los usuarios conlleva a un entendimiento óptimo, que es fundamental en el modelo de desarrollo, incluso a la hora de realizar todo tipo de pruebas.
+            i.fas.fa-check.fa-xs.cst.me-3
+            |La cercanía con los usuarios conlleva un entendimiento óptimo, que es fundamental en el modelo de desarrollo, incluso a la hora de realizar todo tipo de pruebas.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Los requerimientos que se obtienen son más confiables, estables y veraces.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Al mejorar la calidad de los requerimientos, se eleva la calidad del producto final.
 
     h3(data-aos="fade-right")
@@ -404,28 +404,28 @@
       .col-md-8.col-sm-10.rcacid.p-4(data-aos="fade-left")
         ol
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Algunos usuarios tienen la tendencia a la mentira.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Posibles problemas de comunicación y expresión con los clientes.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |La mala interpretación de las órdenes entre los involucrados puede entorpecer el proyecto.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |En ocasiones, se requiere un reentrenamiento a los desarrolladores, en aspectos como el levantamiento de requisitos.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Algunas veces las entrevistas generan un numeroso volumen de información y requiere de mucha habilidad para organizarla y no olvidar detalles importantes.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Se puede obtener información repetida o excesivamente redundante, cuya revisión requiere demasiado tiempo.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Se requiere excelente entendimiento con los usuarios, independiente de factores externos.
           li.mb-3
-            i.fas.fa-circle.cst.me-3
+            i.fas.fa-check.fa-xs.cst.me-3
             |Puede resultar tedioso y muy difícil vincular a patrocinadores y/o dueños, que se requieran, por la dificultad de sus agendas.
 
 </template>

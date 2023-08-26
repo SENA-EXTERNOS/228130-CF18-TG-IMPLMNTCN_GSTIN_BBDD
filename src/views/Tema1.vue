@@ -40,7 +40,7 @@
               |Deben ser realizables y aterrizados; puesto que se construyen servicios que son irrealizables.
             li
               i.lista-ul__vineta
-              |Ser pertinentes, dado a que los requisitos  deben centrarse en el caso de estudio actual y no tratar de solucionar otras situaciones que no aplican al caso.
+              |Ser pertinentes, dado que los requisitos  deben centrarse en el caso de estudio actual y no tratar de solucionar otras situaciones que no aplican al caso.
             li
               i.lista-ul__vineta
               |Priorizar los requerimientos, es decir, no se puede medir de la misma forma todas las peticiones, lo normal es que para cumplir algunos, ya se tengan otros ejecutados.
@@ -70,7 +70,7 @@
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Falencias o fallas
-            p Un  elevado número de proyectos de desarrollo, presentan falencias o fallas en su construcción por especificaciones de requisitos inexactas; los encargados de construir y/o determinar los requisitos funcionales, pueden tomar decisiones y hasta suposiciones basados en la propia experiencia o de situaciones anteriores o generales o, en el peor de los casos, de por sentado algún comportamiento que no corresponde al caso de estudio actual: aún más, puede pasar que el profesional encargado, defina de forma ambigua o demasiado simple un requerimiento, pensando más en una solución fácil o rutinaria, en aras de simplificar su implementación. 
+            p Un  elevado número de proyectos de desarrollo, presentan falencias o fallas en su construcción por especificaciones de requisitos inexactas; los encargados de construir y/o determinar los requisitos funcionales, pueden tomar decisiones y hasta suposiciones basadas en la propia experiencia o de situaciones anteriores o generales o, en el peor de los casos, de por sentado algún comportamiento que no corresponde al caso de estudio actual: aún más, puede pasar que el profesional encargado, defina de forma ambigua o demasiado simple un requerimiento, pensando más en una solución fácil o rutinaria, en aras de simplificar su implementación. 
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Imagen decorativa')
@@ -249,17 +249,17 @@
               |el activo más preciado de las empresas es la información que debe protegerse realizando acciones como:
             ol
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Control de intentos en la digitación de claves de usuario:]
                 | después de determinado número de intentos fallidos al ingresar una contraseña, se debe bloquear la cuenta por razones de seguridad y estipular un proceso seguro y controlado para su desbloqueo.
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Control de cuentas de usuario:]
                 | todos los usuarios del 
                 em software 
                 |deben tener cuentas personalizadas, con el fin  de realizar procesos de auditoría y control de la información efectivos. Con esta acción es posible garantizar la seguridad de la información a través de la creación de roles de usuario.
               li.mb-2
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Control de contraseñas:]
                 |es necesario exigir la utilización de contraseñas fuertes que contengan características como un mínimo de 8 caracteres, obligatoriedad de combinar mayúsculas, minúsculas, números y caracteres especiales. Incluso, puede indicarle al algoritmo que genere dichas contraseñas al usuario, si este lo desea. También es importante agregar preguntas de seguridad previamente establecidas por los usuarios en los procesos de recuperación de contraseñas.
 
@@ -269,23 +269,23 @@
               |depende de elementos como:
             ol
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Capacitación:]
                 |un 
                 em software 
                 |debe facilitar la vida de sus usuarios, no complicarla, es decir, con entrenamientos cortos y sencillos debe ser posible aprender a manejar el aplicativo.
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Rendimiento:]
                 |la optimización de algoritmos, script de bases de datos y demás aspectos medibles y comprobables inherentes al desarrollo de 
                 em software, 
                 |deben mejorar el rendimiento de las aplicaciones.
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Estandarizaciones:]
                 |utilizar símbolos universalmente conocidos, como el + para indicar adición o la lupa para denotar búsquedas; facilita el uso de las aplicaciones de manera intuitiva.
               li.mb-2
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 | #[b Almacenamiento:]
                 |esta característica define un aspecto importante, especialmente para los usuarios, ya que hay aplicaciones que tienen un alto crecimiento en cuanto a registros. Algunas aplicaciones permiten personalizar la configuración de usuario, lo cual es un factor relevante para el almacenamiento.
 
@@ -294,34 +294,51 @@
               |los servidores que alojan las aplicaciones web requieren gran capacidad de almacenamiento y procesamiento de datos, ya que deben responder muchas solicitudes en cuestión de pocos segundos.
 
           div(titulo="Ejemplos de requerimientos funcionales")
-            p Cada transacción (clic) debe tener una respuesta del 
-              em software 
-              |de máximo 5 segundos.
-            p El 
-              em software 
-              |debe poder trabajar sin problemas hasta con 80 mil usuarios conectados simultáneamente.
-            p Los roles de usuario solo pueden ser asignados por el administrador del sistema.
-            p Realizar copias de seguridad automáticas cada 24 horas y almacenarlas  en la nube y en un disco físico fuera de las instalaciones de la empresa.
-            p Todas las claves de usuario deben estar encriptadas.
-            p El sistema debe contar con manuales de usuario ubicados estratégicamente mediante atajos especiales o repositorios comunes. 
-            p Las soluciones web deben construirse con la característica de diseño 
-              em ‘Responsive’ 
-              |(adaptable), que implica que el sitio web se adapte al tamaño de pantalla de cualquier dispositivo.
+            ol
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 Cada transacción (clic) debe tener una respuesta del  
+                    em software 
+                    |de máximo 5 segundos.
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 El 
+                    em software 
+                    |debe poder trabajar sin problemas hasta con 80 mil usuarios conectados simultáneamente.
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 Los roles de usuario solo pueden ser asignados por el administrador del sistema.
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 Realizar copias de seguridad automáticas cada 24 horas y almacenarlas  en la nube y en un disco físico fuera de las instalaciones de la empresa.
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 Todas las claves de usuario deben estar encriptadas.
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 El sistema debe contar con manuales de usuario ubicados estratégicamente mediante atajos especiales o repositorios comunes. 
+                li.mb-3.d-flex
+                  i.fas.fa-check.cp.me-3.fa-xs
+                  p.mb-0 Las soluciones web deben construirse con la característica de diseño 
+                    em ‘Responsive’ 
+                    |(adaptable), que implica que el sitio web se adapte al tamaño de pantalla de cualquier dispositivo.
+            
+            
 
           div(titulo="Para tener en cuenta")
             p Aunque los requisitos no funcionales son estandarizados, es posible que se presenten situaciones como:
             ol
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 |El desarrollo de #[em software] se debe realizar utilizando una de las herramientas #[em CASE] específicas.
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 |La invención del #[em software] se debe realizar cumpliendo con la norma ISO 9000 que establece los estándares al respecto.
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 |El #[em software] no puede registrar más de dos fallas de distinta índole cada mes.
               li.mb-3
-                i.fas.fa-circle.cp.me-3
+                i.fas.fa-check.cp.me-3.fa-xs
                 |La aplicación web debe funcionar para cualquier sistema operativo y en cualquier navegador.
 
     Separador
