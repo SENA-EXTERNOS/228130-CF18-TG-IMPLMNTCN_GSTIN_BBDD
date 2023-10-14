@@ -196,7 +196,7 @@ export default {
     {
       termino: '<em>MoSCoW</em>',
       significado:
-        'técnica de priorización de requisitos que consiste en calificar dichos requisitos dentro de las categorías: <em>Must, Should, Could o Would</em>',
+        'técnica de priorización de requisitos que consiste en calificar dichos requisitos dentro de las categorías: <em>Must, Should, Could o Would</em>.',
     },
     {
       termino: 'Ingeniería del <em>software</em>',
