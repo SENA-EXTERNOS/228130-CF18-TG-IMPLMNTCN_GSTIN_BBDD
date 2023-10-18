@@ -260,8 +260,6 @@ export default {
     {
       referencia:
         'Debrauwer, L. & Van Der, F. (2020). <em>UML 2.5 Iniciación, ejemplos y ejercicios corregidos</em> (5ª edición).',
-      link:
-        'https://www-eni-training-com.bdigital.sena.edu.co/portal/client/mediabook/home',
     },
     {
       referencia:
